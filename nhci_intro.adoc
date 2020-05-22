@@ -1,6 +1,6 @@
 ---
-sidebar: solutions_sidebar
-permalink: solutions/nhci_intro.html
+sidebar: sidebar
+permalink: nhci_intro.html
 summary: An overview of the NetApp HCI infrastructure platform
 keywords: hci, infrastructure, overview
 ---

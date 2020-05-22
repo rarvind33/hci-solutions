@@ -1,6 +1,6 @@
 ---
-sidebar: solutions_sidebar
-permalink: solutions/nhci_euc_vmware.html
+sidebar: sidebar
+permalink: nhci_euc_vmware.html
 summary: An introduction to End User Computing on NetApp HCI with VMware
 keywords: hci, euc, vmware, horizon, vdi
 ---
