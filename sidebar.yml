@@ -26,8 +26,6 @@ entries:
       - title: Red Hat Openshift Container Platform (Deployment Guide)
         url: https://www.netapp.com/us/media/nva-1124-deploy.pdf
       - title: NetApp HCI with Anthos
-        url: nhci_containers_anthos.html
-      - title: NetApp HCI with Anthos Stage
         entries:
           - title: Overview and Business Value
             url: anthos_concept_overview.html
