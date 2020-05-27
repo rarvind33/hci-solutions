@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: anthos_reference_workflow_summary.html
+summary: Reference NVA-1143 5.1 Workflow Summary
+keywords: hci, nva, netapp verified architecture, program, overview
+---
+
+= Workflow Summary: NetApp HCI with Anthos
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+This section provides detailed protocols for implementing the NetApp HCI solution for Anthos.
+
+This deployment is divided into the following high-level tasks:
+1. Configure management switches
+2. Configure data switches
+3. Deploy NetApp HCI with the NetApp Deployment Engine
+4. Configure the vCenter Server
+5. Deploy and configure the F5 Big-IP Virtual Edition appliance
+6. Complete Anthos prerequisites
+7. Deploy the Anthos admin workstation
+8. Deploy the admin and the first user cluster
+9. Deploy additional user clusters
+10. Enable access to the cluster with the GKE console
+11. Install and configure NetApp Trident storage provisioner

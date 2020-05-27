@@ -1,0 +1,17 @@
+---
+sidebar: sidebar
+permalink: anthos_task_leverage_snapmirror.html
+summary: NVA-1143 6.3 Leverage SnapMirror to Copy Data Remotely for Disaster Recovery
+keywords: hci, nva, netapp verified architecture, program, overview
+---
+
+= Leverage SnapMirror to Copy Data Remotely for Disaster Recovery
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+NetApp Element storage systems can use NetApp SnapMirror technology to replicate storage volumes to systems running the NetApp ONTAP system, including AFF, FAS, and Cloud Volumes ONTAP. You can set up regularly scheduled SnapMirror operations to back up the VMware datastores and restore from a remote site in the event of a disaster. It is also possible to use SnapMirror to back up or migrate the persistent volumes provisioned by Trident and reattach them to Kubernetes clusters deployed in other environments and in the cloud.

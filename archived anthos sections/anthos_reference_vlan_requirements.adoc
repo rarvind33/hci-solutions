@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: anthos_reference_vlan_requirements.html
+summary: Reference NVA-1143 3.3 VLAN Requirements
+keywords: hci, nva, netapp verified architecture, program, overview
+---
+
+= VLAN Requirements
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+The solution is designed to logically separate network traffic for different purposes by using Virtual Local Area Networks (VLANs). NetApp HCI requires a minimum of three network segments. However, this configuration can be scaled to meet customer demands or to provide further isolation for specific network services. The following table lists the VLANs that are required to implement the solution, as well as the specific VLAN IDs that are used later in the validated architecture deployment.
+
+[cols=3*,options="header",cols="25,50,25"]
+|===
+| VLANs
+| Purpose
+| VLAN Used
+| Out-of-band management | Management for HCI nodes | 16
+| In-band management | Management for HCI nodes and infrastructure virtual guests | 3480
+| Storage Network | Storage network for NetApp Element | 3481
+| vMotion network | Network for VMware vMotion | 3482
+| VM network | Network for virtual guests | 1172
+|===

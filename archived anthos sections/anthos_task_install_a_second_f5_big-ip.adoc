@@ -1,0 +1,17 @@
+---
+sidebar: sidebar
+permalink: anthos_task_install_a_second_f5_big-ip.html
+summary: Task NVA-1143 6.1 Install a Second F5 Big-IP Virtual Edition Appliance
+keywords: hci, nva, netapp verified architecture, program, overview
+---
+
+= Install a Second F5 Big-IP Virtual Edition Appliance
+
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+In a production environment, it is a best practice to avoid single points of failure in your environment. For this validation, a single F5 BIG-IP Virtual Edition Load Balancer appliance was used to validate connectivity to the control plane and the ingress VIP addresses for the Anthos on VMware clusters. While this works fine for a simple validation, loss of communication with the control plane VIP for a cluster can make a cluster inaccessible or unable to be managed from the admin workstation or the Google Cloud console. F5 BIG-IP Virtual Edition supports application-based HA to make sure disruptions do not happen. Although this issue is mentioned briefly, setup procedures for this functionality are not described in detail in this document. However, NetApp recommends investigating this feature further before deploying the NetApp HCI for Anthos solution into production.
