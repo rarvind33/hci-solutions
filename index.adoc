@@ -54,7 +54,7 @@ Kits for End User Computing (EUC) and Private Cloud show how NetApp HCI solution
 2+| link:https://fieldportal.netapp.com/content/940466[Digital Workplace Transformation (VDI/EUC]
 | *Technical Presentation*
 2+| link:https://fieldportal.netapp.com/content/1012848[Technical Presentation for EUC Opportunity]
-| *ORG*
+| *Quick Reference Guide (QRG)*
 2+| link:https://fieldportal.netapp.com/content/1022849[EUC & VDI Solutions with NetApp HCI Partner Marketing]
 | *FAQ*
 2+| link:https://fieldportal.netapp.com/content/1001003[NetApp HCI FAQ for EUC-VDI]
@@ -75,7 +75,7 @@ Kits for End User Computing (EUC) and Private Cloud show how NetApp HCI solution
 | *Technical Presentation*
 | link:https://fieldportal.netapp.com/content/883472[Build Your VMware Private Cloud]
 | link:https://fieldportal.netapp.com/content/902546[Private Cloud with Red Hat/KVM]
-| *ORG*
+| *Quick Reference Guide (QRG)*
 2+| link:https://fieldportal.netapp.com/content/942543[Private Cloud Solutions]
 | *FAQ*
 | link:https://fieldportal.netapp.com/content/931601[FAQ: VMware Private Cloud]
