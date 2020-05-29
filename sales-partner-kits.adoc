@@ -1,4 +1,4 @@
---
+---
 sidebar: sidebar
 permalink: sales-partner-kits.html
 summary: NetApp Sales and Partner Kits are rich with information to help you sell more effectively.  Learn more about the information available to help NetApp HCI Sales team and Partners.
