@@ -14,24 +14,21 @@ keywords: netapp, hci, solutions, catalog, solution
 :imagesdir: ./media/
 
 [.lead]
-Welcome to the NetApp HCI solutions portal.
+NetApp HCI solutions can help you achieve performance at scale with multiple workloads on the same infrastructure without friction.
 
-Here, you will find detailed information for the solutions available on NetApp HCI  by using the navigation section on the left of this page.  Also included is additional collateral for our Sales and Partner teams.
+NetApp HCI eliminates the pain points of legacy IT operations that lead to infrastructure silos. Achieve your goals quickly and efficiently whether you are an IT, DevOps, or database team. NetApp HCI can help simplify your multi-application, multi-cloud environment.
 
-NetApp HCI Solutions expand the capabilities to deliver on use cases in areas such as:
-[width=100%,cols="2*",frame="none",grid="none"]
-|===
-a|
- * Public, Private, Hybrid and Multi Cloud
- * Containers and DevOps
- * Enterprise Applications
- * AI and GPU
-a|
- * End User Computing (EUC)
- * Data Fabric
- * Data Protection
- * Security
-|===
+image::HCI_Solution_intro.png[Introduction to HCI Solutions]
+
+*NetApp HCI Workloads*
+
+* *VMware.* Provides seamless performance at scale. Private Cloud supports a diverse mix of VMware users.
+* *SQL Databases.* Deliver web-scale engineering and enterprise availability for your database environment.
+* *Oracle.* Achieve efficiency, agility, and availability in your Oracle environment.
+* *SAP.* Provides the performance, availability, and simplified management for SAP applications.
+* *Splunk.* Takes the complexity out of managing infrastructure for Splunk and allows you to focus on the data.
+* *Citrix.* Provides work-from-home provisioning for today’s work force.
+* *Horizon view.* Provides work-from-home provisioning for today’s work force.
 
 == NetApp HCI End User Compute and Virtual Desktop Infrastructure Solutions
 The “work from home” or mobile workforce requirement has become the new reality for nearly every company in the world.  NetApp HCI End User Compute solutions deliver Virtual Desktop Infrastructures (VDI) solutions that address the needs of performance at scale, cost efficient provisioning and much more.
