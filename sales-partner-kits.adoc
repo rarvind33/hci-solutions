@@ -67,7 +67,7 @@ Kits for End User Computing (EUC) and Private Cloud show how NetApp HCI solution
 == NetApp HCI TV
 [width=100%,cols="1,6",grid="cols"]
 |===
-| image:HCI-TV-image.jpg[align="center",width="200",height="200"]
+| image:HCI-TV-image.jpg[align="center",width="80",height="80"]
 a| * Ideas for your customer presentation of EUC and VDI solutions with NetApp HCI
 link:https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea08cb48-cae4-4484-933e-abc700e747f4[Introduction to NetApp HCI EUC Solution] (3:24)
 
