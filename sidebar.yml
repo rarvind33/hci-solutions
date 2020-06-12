@@ -43,7 +43,6 @@ entries:
             url: anthos_reference_design_considerations.html
           - title: Hardware and Software Requirements
             url: anthos_reference_hardware_software_requirements.html
-          - title: Architecture Diagram
           - title: Deployment Steps
             entries:
               - title: Workflow Summary
