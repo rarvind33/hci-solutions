@@ -27,6 +27,7 @@ entries:
     entries:
 #      - title: DevOps CI / CD Pipeline
 #      url: nhci_devops_cicd.html
+#
       - title: Infrastructure as Code with Red Hat Ansible
         url: https://www.netapp.com/us/media/wp-7304.pdf
       - title: Red Hat Openshift Container Platform (Design Guide)
