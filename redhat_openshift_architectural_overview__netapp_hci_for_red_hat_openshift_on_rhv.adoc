@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Architectural Overview  NetApp HCI for Red Hat OpenShift on RHV
+= Architectural Overview: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -64,4 +64,3 @@ The following table lists the software components that are required to implement
 |Container orchestration
 |4.4.6
 |===
-

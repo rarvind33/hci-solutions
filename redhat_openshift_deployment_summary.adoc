@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Deployment Summary
+= Deployment Summary: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -41,4 +41,3 @@ Deploying Red Hat OpenShift Container Platform through IPI on Red Hat Virtualiza
 .  Configure worker nodes to run storage services
 
 . Download and install Trident through Operator
-

@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Deployment Summary  NetApp HCI with RHV
+= Deployment Summary: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -37,4 +37,3 @@ Deploying Red Hat Virtualization for NetApp HCI involves the following high-leve
 . Deploy Test VMs
 
 . Test HA Functionality
-

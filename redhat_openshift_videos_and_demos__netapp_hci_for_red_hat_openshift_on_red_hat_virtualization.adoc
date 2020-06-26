@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Videos and Demos  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+= Videos and Demos: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -22,5 +22,4 @@ summary:
 
 The following video demonstrates some of the capabilities documented in this document:
 
-*  https://netapp.sharepoint.com/sites/ProductOps/IEGPSO/IE/ContentCuration/Editing%20Drop%20Box/Forms/AllItems.aspx?id=%2Fsites%2FProductOps%2FIEGPSO%2FIE%2FContentCuration%2FEditing%20Drop%20Box%2FHeather%27s%20Files%2FNVA%2D1149%20%28Alan%20Cowles%29%2FOCPonRHVDemo%2D%2Dtitle%2Emp4&parent=%2Fsites%2FProductOps%2FIEGPSO%2FIE%2FContentCuration%2FEditing%20Drop%20Box%2FHeather%27s%20Files%2FNVA%2D1149%20%28Alan%20Cowles%29[NetApp HCI for Red Hat OpenShift on Red Hat Virtualization^]
-
+video::OCPonRHVDemo.mp4[NetApp HCI for Red Hat OpenShift on Red Hat Virtualization]

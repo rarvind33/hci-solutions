@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Enabling Fencing for RHV-H Hosts
+= Enabling Fencing for RHV-H Hosts: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -31,4 +31,3 @@ After power management is enabled, the next step involves configuring a fencing 
 image:redhat_virtualization_image74.png[Error: Missing Graphic Image]
 
 With fencing enabled, the RHV environment is configured to support a highly available deployment should one of the hypervisor nodes become nonresponsive.
-

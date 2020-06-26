@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 7. Access Console/Web Console  NetApp HCI for Red Hat OpenShift on RHV
+= 7. Access Console/Web Console: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font

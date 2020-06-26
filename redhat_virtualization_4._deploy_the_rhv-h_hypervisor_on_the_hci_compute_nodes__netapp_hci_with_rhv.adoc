@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 4. Deploy the RHV-H Hypervisor on the HCI Compute Nodes  NetApp HCI with RHV
+= 4. Deploy the RHV-H Hypervisor on the HCI Compute Nodes: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font

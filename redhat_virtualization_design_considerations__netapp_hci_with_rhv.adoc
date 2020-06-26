@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Design Considerations  NetApp HCI with RHV
+= Design Considerations: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -65,7 +65,7 @@ The solution is designed to logically separate network traffic for different pur
 |Migration network
 |Network for virtual guest migration.
 |3345
-|VM network 
+|VM network
 |Network for virtual guests.
 |3346
 |===
@@ -79,4 +79,3 @@ The following infrastructure should be in place prior to the deployment of the R
 * At least one NTP server that is accessible from the in- band management network and the VM network.
 
 * Outbound internet connectivity is recommended,  but not required,  for both the in- band management network and the VM network.
-

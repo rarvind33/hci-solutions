@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 6. Install OpenShift Container Platform  NetApp HCI for Red Hat OpenShift on RHV
+= 6. Install OpenShift Container Platform: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font
