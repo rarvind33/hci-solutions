@@ -1,8 +1,6 @@
 entries:
-  - title: NetApp HCI Documentation
-    url: https://docs.netapp.com/us-en/hci/index.html
   - title: NetApp HCI Sales & Partner Kits
-    url: sales-partner-kits.html
+    url: /sales-partner-kits.html
   - title: Private Cloud
     entries:
       - title: VMware Private Cloud (Design Guide)
@@ -18,15 +16,54 @@ entries:
   - title: End User Computing (EUC)
     entries:
       - title: EUC with VMware Horizon
-        url: nhci_euc_vmware.html
+        url: /nhci_euc_vmware.html
       - title: Citrix Virtual Apps and Desktops with VMware vSphere (Design Guide)
         url: https://www.netapp.com/us/media/nva-1140-design.pdf
       - title: NetApp HCI for Dassault Systèmes CATIA
         url: https://www.netapp.com/us/media/tr-4837.pdf
+  - title: Infrastructure
+    entries:
+      - title: NetApp HCI with Red Hat Virtualization
+        entries:
+          - title: Abstract
+            url: /redhat_virtualization_abstract.html
+            output: pdf
+          - title: Solution Overview  NetApp HCI with RHV
+            url: /redhat_virtualization_solution_overview__netapp_hci_with_rhv.html
+          - title: Architecture Overview  NetApp HCI with RHV
+            url: /redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html
+          - title: Design Considerations  NetApp HCI with RHV
+            url: /redhat_virtualization_design_considerations__netapp_hci_with_rhv.html
+          - title: Deployment Procedures  NetApp HCI with RHV
+            entries:
+              - title: Deployment Summary  NetApp HCI with RHV
+                url: /redhat_virtualization_deployment_summary__netapp_hci_with_rhv.html
+              - title: 1. Configure Management Switches  NetApp HCI with RHV
+                url: /redhat_virtualization_1._configure_management_switches__netapp_hci_with_rhv.html
+              - title: 2. Configure Data Switches  NetApp HCI with RHV
+                url: /redhat_virtualization_2._configure_data_switches__netapp_hci_with_rhv.html
+              - title: 3. Deploy the Element Storage System on the HCI Storage Nodes  NetApp HCI with RHV
+                url: /redhat_virtualization_3._deploy_the_element_storage_system_on_the_hci_storage_nodes__netapp_hci_with_rhv.html
+              - title: 4. Deploy the RHV-H Hypervisor on the HCI Compute Nodes  NetApp HCI with RHV
+                url: /redhat_virtualization_4._deploy_the_rhv-h_hypervisor_on_the_hci_compute_nodes__netapp_hci_with_rhv.html
+              - title: 5. Deploy the RHV Manager as a Self-Hosted Engine
+                url: /redhat_virtualization_5._deploy_the_rhv_manager_as_a_self-hosted_engine.html
+              - title: 6. Configure RHV-M Infrastructure
+                url: /redhat_virtualization_6._configure_rhv-m_infrastructure.html
+              - title: 7. Deploy the NetApp mNode
+                url: /redhat_virtualization_7._deploy_the_netapp_mnode.html
+          - title: Best Practices for Production Deployments
+            entries:
+              - title: Updating RHV Manager and RHV-H Hosts
+                url: /redhat_virtualization_updating_rhv_manager_and_rhv-h_hosts.html
+              - title: Enabling Fencing for RHV-H Hosts
+                url: /redhat_virtualization_enabling_fencing_for_rhv-h_hosts.html
+              - title: Optimizing Memory for Red Hat Virtualization
+                url: /redhat_virtualization_optimizing_memory_for_red_hat_virtualization.html
+          - title: Where to Find Additional Information  NetApp HCI with RHV
+            url: /redhat_virtualization_where_to_find_additional_information__netapp_hci_with_rhv.html
   - title: Containers and DevOps
     entries:
-#      - title: DevOps CI / CD Pipeline
-#      url: nhci_devops_cicd.html
       - title: Infrastructure as Code with Red Hat Ansible
         url: https://www.netapp.com/us/media/wp-7304.pdf
       - title: Red Hat Openshift Container Platform (Design Guide)
@@ -39,43 +76,84 @@ entries:
             url: /anthos_abstract.html
             output: pdf
           - title: Overview and Business Value
-            url: anthos_concept_overview.html
+            url: /anthos_concept_overview.html
           - title: Solution Components
-            url: anthos_concept_solution_components.html
+            url: /anthos_concept_solution_components.html
           - title: Design Considerations
-            url: anthos_reference_design_considerations.html
+            url: /anthos_reference_design_considerations.html
           - title: Hardware and Software Requirements
-            url: anthos_reference_hardware_software_requirements.html
+            url: /anthos_reference_hardware_software_requirements.html
           - title: Deployment Steps
             entries:
               - title: Workflow Summary
-                url: anthos_reference_workflow_summary.html
+                url: /anthos_reference_workflow_summary.html
               - title: 1. Configure Management Switches
-                url: anthos_task_configure_management_switches.html
+                url: /anthos_task_configure_management_switches.html
               - title: 2. Configure Data Switches
-                url: anthos_task_configure_data_switches.html
+                url: /anthos_task_configure_data_switches.html
               - title: 3. Deploy NetApp HCI with the NetApp Deployment Engine
-                url: anthos_task_deploy_netapp_hci.html
+                url: /anthos_task_deploy_netapp_hci.html
               - title: 4. Configure the vCenter Server
-                url: anthos_task_configure_the_vcenter_server.html
+                url: /anthos_task_configure_the_vcenter_server.html
               - title: 5. Deploy and Configure the F5 Big-IP Virtual Edition Appliance
-                url: anthos_task_deploy_the_f5_big-ip.html
+                url: /anthos_task_deploy_the_f5_big-ip.html
               - title: 6. Complete Anthos Prerequisites
-                url: anthos_task_complete_anthos_prerequisites.html
+                url: /anthos_task_complete_anthos_prerequisites.html
               - title: 7. Deploy the Anthos Admin Workstation
-                url: anthos_task_deploy_the_anthos_admin_workstation.html
+                url: /anthos_task_deploy_the_anthos_admin_workstation.html
               - title: 8. Deploy the Admin and the First User Cluster
-                url: anthos_task_deploy_the_admin.html
+                url: /anthos_task_deploy_the_admin.html
               - title: 9. Deploy Additional User Clusters
-                url: anthos_task_deploy_additional_user_clusters.html
+                url: /anthos_task_deploy_additional_user_clusters.html
               - title: 10. Enable Access to the Cluster with the GKE Console
-                url: anthos_task_enable_access_to_the_cluster.html
+                url: /anthos_task_enable_access_to_the_cluster.html
               - title: 11. Install and Configure NetApp Trident Storage Provisioner
-                url: anthos_task_install_and_configure_trident.html
+                url: /anthos_task_install_and_configure_trident.html
           - title: Video Demos
-            url: anthos_reference_video_demos.html
+            url: /anthos_reference_video_demos.html
           - title: Additional Information
-            url: anthos_reference_addition_information.html
+            url: /anthos_reference_addition_information.html
+      - title: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+        entries:
+          - title: Abstract
+            url: /redhat_openshift_abstract.html
+            output: pdf
+          - title: Solution Overview  NetApp HCI for Red Hat OpenShift on RHV
+            url: /redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
+          - title: Architectural Overview  NetApp HCI for Red Hat OpenShift on RHV
+            url: /redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
+          - title: Design Considerations  NetApp HCI for Red Hat OpenShift on RHV
+            url: /redhat_openshift_design_considerations__netapp_hci_for_red_hat_openshift_on_rhv.html
+          - title: Deploying NetApp HCI for Red Hat OpenShift on RHV
+            entries:
+              - title: Deployment Summary
+                url: /redhat_openshift_deployment_summary.html
+              - title: 1. Create Storage Network VLAN  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_1._create_storage_network_vlan__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 2. Download OpenShift Installation Files  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_2._download_openshift_installation_files__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 3. Download CA Certificate from RHV  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_3._download_ca_certificate_from_rhv__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 4. Register API/Apps in DNS  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_4._register_api_apps_in_dns__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 5. Generate and Add SSH Private Key  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_5._generate_and_add_ssh_private_key__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 6. Install OpenShift Container Platform  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_6._install_openshift_container_platform__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 7. Access Console/Web Console  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_7._access_console_web_console__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 8. Configure Worker Nodes to Run Storage Services  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_8._configure_worker_nodes_to_run_storage_services__netapp_hci_for_red_hat_openshift_on_rhv.html
+              - title: 9. Download and Install NetApp Trident  NetApp HCI for Red Hat OpenShift on RHV
+                url: /redhat_openshift_9._download_and_install_netapp_trident__netapp_hci_for_red_hat_openshift_on_rhv.html
+          - title: Validation Results  NetApp HCI for Red Hat OpenShift on RHV
+            url: /redhat_openshift_validation_results__netapp_hci_for_red_hat_openshift_on_rhv.html
+          - title: Best Practices for Production Deployments
+            url: /redhat_openshift_best_practices_for_production_deployments.html
+          - title: Videos and Demos  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+            url: /redhat_openshift_videos_and_demos__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html
+          - title: Additional Information  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+            url: /redhat_openshift_additional_information__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html
   - title: Database
     entries:
       - title: MongoDB

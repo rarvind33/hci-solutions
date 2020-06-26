@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: redhat_openshift_videos_and_demos__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html
+keywords:
+summary:
+---
+
+= Videos and Demos  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (June 4, 2020)
+//
+// 2020-06-25 14:31:33.664333
+//
+
+[.lead]
+
+The following video demonstrates some of the capabilities documented in this document:
+
+*  https://netapp.sharepoint.com/sites/ProductOps/IEGPSO/IE/ContentCuration/Editing%20Drop%20Box/Forms/AllItems.aspx?id=%2Fsites%2FProductOps%2FIEGPSO%2FIE%2FContentCuration%2FEditing%20Drop%20Box%2FHeather%27s%20Files%2FNVA%2D1149%20%28Alan%20Cowles%29%2FOCPonRHVDemo%2D%2Dtitle%2Emp4&parent=%2Fsites%2FProductOps%2FIEGPSO%2FIE%2FContentCuration%2FEditing%20Drop%20Box%2FHeather%27s%20Files%2FNVA%2D1149%20%28Alan%20Cowles%29[NetApp HCI for Red Hat OpenShift on Red Hat Virtualization^]
+
