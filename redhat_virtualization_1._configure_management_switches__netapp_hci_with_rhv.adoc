@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 1. Configure Management Switches  NetApp HCI with RHV
+= 1. Configure Management Switches: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font

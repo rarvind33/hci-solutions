@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Architecture Overview  NetApp HCI with RHV
+= Architecture Overview: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -58,4 +58,3 @@ The following table lists the software components that are required to implement
 |Virtualization
 |4.3.9
 |===
-

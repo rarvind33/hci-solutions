@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 6. Configure RHV-M Infrastructure
+= 6. Configure RHV-M Infrastructure: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font

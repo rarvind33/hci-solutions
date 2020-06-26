@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 1. Create Storage Network VLAN  NetApp HCI for Red Hat OpenShift on RHV
+= 1. Create Storage Network VLAN: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font

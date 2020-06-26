@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 9. Download and Install NetApp Trident  NetApp HCI for Red Hat OpenShift on RHV
+= 9. Download and Install NetApp Trident: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font

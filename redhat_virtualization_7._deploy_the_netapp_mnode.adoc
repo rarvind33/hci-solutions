@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 7. Deploy the NetApp mNode
+= 7. Deploy the NetApp mNode: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 3. Deploy the Element Storage System on the HCI Storage Nodes  NetApp HCI with RHV
+= 3. Deploy the Element Storage System on the HCI Storage Nodes: NetApp HCI with RHV
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= 5. Generate and Add SSH Private Key  NetApp HCI for Red Hat OpenShift on RHV
+= 5. Generate and Add SSH Private Key: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font

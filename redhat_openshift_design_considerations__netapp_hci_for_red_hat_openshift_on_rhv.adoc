@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Design Considerations  NetApp HCI for Red Hat OpenShift on RHV
+= Design Considerations: NetApp HCI for Red Hat OpenShift on RHV
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -56,4 +56,3 @@ The following infrastructure should be in place prior to the deployment of the O
 * (Optional) Outbound internet connectivity for both the in-band management network and the VM network.
 
 * RHV cluster should have at least 28x vCPUs, 112GB RAM, and 840GB of available storage (depending on the production workload requirements).
-
