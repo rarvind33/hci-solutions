@@ -23,6 +23,7 @@ summary:
 To download and install NetApp Trident, complete the following steps:
 
 . Make sure that the user that is logged in to the OCP cluster has sufficient privileges for installing Trident.
++
 
 ....
 [user@rhel7 openshift-deploy]$ oc auth can-i '*' '*' --all-namespaces
@@ -30,6 +31,7 @@ To download and install NetApp Trident, complete the following steps:
 ....
 
 . Verify that you can download an image from the registry and access the MVIP of the NetApp Element cluster.
++
 
 ....
 [user@rhel7 openshift-deploy]$ oc run -i --tty ping --image=busybox --restart=Never --rm -- ping 10.63.172.140
@@ -44,26 +46,29 @@ If you don't see a command prompt, try pressing enter.
 --- 10.63.172.140 ping statistics ---
 7 packets transmitted, 7 packets received, 0% packet loss
 round-trip min/avg/max = 0.254/0.387/0.946 ms
-pod "ping" deleted 
+pod "ping" deleted
 ....
 
 . Download the Trident installer bundle using the following commands and extract it to a directory.
++
 
 ....
-[user@rhel7 ~]$ wget  
+[user@rhel7 ~]$ wget
 [user@rhel7 ~]$ tar -xf trident-installer-20.04.0.tar.gz
 [user@rhel7 ~]$ cd trident-installer
 ....
 
 . The Trident installer contains manifests for defining all the required resources.  Using the appropriate manifests, create the TridentProvisioner custom resource definition.
++
 
 ....
 [user@rhel7 trident-installer]$ oc create -f deploy/crds/trident.netapp.io_tridentprovisioners_crd_post1.16.yaml
-  
+
 customresourcedefinition.apiextensions.k8s.io/tridentprovisioners.trident.netapp.io created
 ....
 
 . Create a Trident namespace,  which is required for the Trident operator.
++
 
 ....
 [user@rhel7 trident-installer]$ oc create namespace trident
@@ -71,6 +76,7 @@ namespace/trident created
 ....
 
 . Create the resources required for the Trident operator deployment, such as a ServiceAccount for the operator, a ClusterRole and ClusterRoleBinding to the ServiceAccount, a dedicated PodSecurityPolicy, or the operator itself.
++
 
 ....
 [user@rhel7 trident-installer]$ oc kustomize deploy/ > deploy/bundle.yaml
@@ -83,6 +89,7 @@ podsecuritypolicy.policy/tridentoperatorpods created
 ....
 
 . Verify that the Trident operator is deployed.
++
 
 ....
 [user@rhel7 trident-installer]$ oc get deployment -n trident
@@ -94,13 +101,15 @@ trident-operator-564d7d66f-qrz7v   1/1     Running   0          71s
 ....
 
 . After the Trident operator is installed, install Trident using this operator. In this example, TridentProvisioner custom resource (CR) was created.  The Trident installer comes with definitions for creating a TridentProvisioner CR.  These can be modified based on the requirements.
++
 
 ....
 [user@rhel7 trident-installer]$ oc create -f deploy/crds/tridentprovisioner_cr.yaml
 tridentprovisioner.trident.netapp.io/trident created
 ....
 
-. Approve the Trident serving CSR certificates by using  `oc get csr -o name | xargs oc adm certificate approve` .
+. Approve the Trident serving CSR certificates by using  `oc get csr -o name | xargs oc adm certificate approve`.
++
 
 ....
 [user@rhel7 trident-installer]$ oc get csr -o name | xargs oc adm certificate approve
@@ -117,16 +126,17 @@ certificatesigningrequest.certificates.k8s.io/csr-76wgv approved
 certificatesigningrequest.certificates.k8s.io/csr-78qsq approved
 certificatesigningrequest.certificates.k8s.io/csr-7r58n approved
 certificatesigningrequest.certificates.k8s.io/csr-8ghmk approved
-certificatesigningrequest.certificates.k8s.io/csr-8sn5q approved 
+certificatesigningrequest.certificates.k8s.io/csr-8sn5q approved
 ....
 
-. Verify that Trident 20.04 is installed by using the TridentProvisioner CR and verify that the pods related to Trident are. 
+. Verify that Trident 20.04 is installed by using the TridentProvisioner CR and verify that the pods related to Trident are.
++
 
 ....
 [user@rhel7 trident-installer]$ oc get tprov -n trident
 NAME      AGE
 trident   9m49s
- 
+
 [user@rhel7 trident-installer]$ oc describe tprov trident -n trident
 Name:         trident
 Namespace:    trident
@@ -161,16 +171,17 @@ trident-csi-xfl9d                  2/2     Running   0          10m
 trident-csi-xrhqx                  2/2     Running   0          10m
 trident-csi-zb7ws                  2/2     Running   0          10m
 trident-operator-564d7d66f-qrz7v   1/1     Running   0          27m
- 
+
 [user@rhel7 trident-installer]$ ./tridentctl -n trident version
 +----------------+----------------+
 | SERVER VERSION | CLIENT VERSION |
 +----------------+----------------+
 | 20.04.0        | 20.04.0        |
-+----------------+----------------+ 
++----------------+----------------+
 ....
 
-. Create a storage backend that will be used by Trident to provision volumes.  The storage backend specifies the Element cluster in NetApp HCI. You also can specify sample bronze, silver, and gold types with corresponding QoS specs.  
+. Create a storage backend that will be used by Trident to provision volumes.  The storage backend specifies the Element cluster in NetApp HCI. You also can specify sample bronze, silver, and gold types with corresponding QoS specs.
++
 
 ....
 [user@rhel7 trident-installer]$ vi backend.json
@@ -189,19 +200,19 @@ trident-operator-564d7d66f-qrz7v   1/1     Running   0          27m
 |          NAME           | STORAGE DRIVER |                 UUID                 | STATE  | VOLUMES |
 +-------------------------+----------------+--------------------------------------+--------+---------+
 | solidfire_10.61.185.205 | solidfire-san  | 40f48d99-5d2e-4f6c-89ab-8aee2be71255 | online |       0 |
-+-------------------------+----------------+--------------------------------------+--------+---------+ 
++-------------------------+----------------+--------------------------------------+--------+---------+
 ....
++
 
-[NOTE]
 Modify the  `backend.json`  to accommodate the details or requirements of your environment for the following values:
 
-** Endpoint corresponds to the credentials and the MVIP of the NetApp HCI Element cluster. 
+** Endpoint corresponds to the credentials and the MVIP of the NetApp HCI Element cluster.
 
 ** SVIP corresponds to the SVIP configured over the VM network in the section titled “Create Storage Network VLAN.” <<xref file needed post conversion for this cross-reference.>>
 
 ** Types corresponds to different QoS bands. New persistent volumes can be created with specific QoS settings by specifying the exact storage pool.
 
-. Create a StorageClass that specifies Trident as the provisioner and the storage backend as  `solidfire-san` .
+. Create a StorageClass that specifies Trident as the provisioner and the storage backend as  `solidfire-san`.
 
 ....
 [user@rhel7 trident-installer]$ vi storage-class-basic.yaml
@@ -215,11 +226,10 @@ provisioner: csi.trident.netapp.io
 parameters:
   backendType: "solidfire-san"
   provisioningType: "thin"
- 
+
 [user@rhel7 trident-installer]$ oc create -f storage-class-basic.yaml
 storageclass.storage.k8s.io/basic created
 ....
 
 [NOTE]
-In this example, the StorageClass created is set as a default, however an OpenShift administrator can define multiple storage classes corresponding to different QoS requirements and other factors based upon their applications.  Trident selects a storage backend that can satisfy all the criteria specified in the parameters section in the storage class definition.  End users can then provision storage as needed, without administrative intervention.  
-
+In this example, the StorageClass created is set as a default, however an OpenShift administrator can define multiple storage classes corresponding to different QoS requirements and other factors based upon their applications.  Trident selects a storage backend that can satisfy all the criteria specified in the parameters section in the storage class definition.  End users can then provision storage as needed, without administrative intervention.

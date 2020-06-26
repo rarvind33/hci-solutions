@@ -23,15 +23,18 @@ summary:
 To register API/Apps in DNS, complete the following steps:
 
 . Reserve three static IP addresses from the network being used for OCP: the first IP address for OpenShift Container Platform REST API, the second IP address for pointing to the wildcard application ingress, and the third IP address for the internal DNS service. The first two IPs require an entry in the DNS server.
++
 
 [NOTE]
 The default value of the  `machineNetwor` k subnet as created by IPI during OpenShift install is   `10.0.0.0/16` . If the IPs you intend to use for your cluster’s management network fall outside of this range, you might need to customize your deployment and edit these values before deploying the cluster. For more information, see the section titled “Use a Customer Install File for OpenShift Deployment.” <<xref fie needed post conversion for this cross-reference. >>
++
 
 . Configure the API domain name by using the format  `api.<openshift-cluster-name>.<base-domain>`  pointing to the reserved IP.
++
 
 image:redhat_openshift_image10.png[Error: Missing Graphic Image]
 
 . Configure the wildcard application ingress domain name by using the format  `*.apps.<openshift-cluster-name>.<base-domain>`  pointing to the reserved IP.
++
 
 image:redhat_openshift_image11.png[Error: Missing Graphic Image]
-

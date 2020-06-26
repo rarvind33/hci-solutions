@@ -22,17 +22,19 @@ summary:
 
 To download the CA certificate from RHV, complete the following steps:
 
-. In order to access the RHV manager from the RHEL machine during the deployment process,  the CA certificate trust must be updated on the machine to trust connections to RHV-M. To download the RHV Manager's CA certificate, run the following commands: 
+. In order to access the RHV manager from the RHEL machine during the deployment process,  the CA certificate trust must be updated on the machine to trust connections to RHV-M. To download the RHV Manager's CA certificate, run the following commands:
++
 
 ....
 sudo curl -k 'https://<engine-fqdn>/ovirt-engine/services/pki-resource?resource=ca-certificate&format=X509-PEM-CA' -o /tmp/ca.pem
 [user@rhel7 ~]$  sudo curl -k 'https://rhv-m.cie.netapp.com/ovirt-engine/services/pki-resource?resource=ca-certificate&format=X509-PEM-CA' -o /tmp/ca.pem
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  1376  100  1376    0     0   9685      0 --:--:-- --:--:-- --:--:--  9690 
+100  1376  100  1376    0     0   9685      0 --:--:-- --:--:-- --:--:--  9690
 ....
 
 . Copy the CA certificate to the directory for server certificates and update the CA trust.
++
 
 ....
 [user@rhel7 ~]$  sudo cp /tmp/ca.pem /etc/pki/ca-trust/source/anchors/ca.pem
