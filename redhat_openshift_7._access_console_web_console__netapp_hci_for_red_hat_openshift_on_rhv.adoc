@@ -1,7 +1,8 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_7._access_console_web_console__netapp_hci_for_red_hat_openshift_on_rhv.html
-keywords:
+keywords: OCP Cluster, console, web
+
 summary:
 ---
 
@@ -22,7 +23,7 @@ summary:
 
 To access the console or web console, complete the following steps:
 
-. To access the OCP cluster through the CLI,  extract the  `oc`  command-line tools tar file and place its content in a directory that is in the user’s path.
+. To access the OCP cluster through the CLI, extract the `oc` command-line tools tar file and place its content in a directory that is in the user’s path.
 +
 
 ....
@@ -36,14 +37,14 @@ kubectl
 [user@rhel7 openshift-deploy]$ cp oc /usr/local/bin
 ....
 
-. To interact with the cluster through the CLI, you can use the  `kubeconfig`  file provided by the IPI process, located in the  `/auth`  directory inside the folder from where you launched the installation program.  To easily interact with the cluster, export the file that is created in the directory. After a successful cluster deployment, the file location and the following command are displayed.
+. To interact with the cluster through the CLI, you can use the `kubeconfig` file provided by the IPI process located in the `/auth` directory inside the folder from where you launched the installation program. To easily interact with the cluster, export the file that is created in the directory. After a successful cluster deployment, the file location and the following command are displayed.
 +
 
 ....
 [user@rhel7 openshift-deploy]$ export KUBECONFIG=/home/user/openshift-deploy/auth/kubeconfig
 ....
 
-. Verify whether you have access to the cluster and whether the nodes are in Ready state.
+. Verify whether you have access to the cluster and whether the nodes are in the Ready state.
 +
 
 ....
@@ -57,6 +58,6 @@ rhv-ocp-cluster-hdr7k-worker-0-xdl99   Ready    worker   86m   v1.17.1
 rhv-ocp-cluster-hdr7k-worker-0-zkxmt   Ready    worker   85m   v1.17.1
 ....
 
-. Log in to the web console URL by using the credentials,  both of which were provided after the successful deployment of the cluster,  and then verify GUI access to the cluster.
+. Log in to the web console URL by using the credentials, both of which were provided after the successful deployment of the cluster, and then verify GUI access to the cluster.
 
 image:redhat_openshift_image13.png[Error: Missing Graphic Image]
