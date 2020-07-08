@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_5._generate_and_add_ssh_private_key__netapp_hci_for_red_hat_openshift_on_rhv.html
-keywords:
+keywords: SSH, Private Key
 summary:
 ---
 
@@ -22,14 +22,14 @@ summary:
 
 To generate and add an SSH private key, complete the following steps:
 
-. For the installation debugging or disaster recovery on the OpenShift cluster, you must provide an SSH key to both the  `ssh-agent`  and the installation program. Create an SSH key if one does not already exist for password- less authentication on the RHEL machine.
+. For the installation debugging or disaster recovery on the OpenShift cluster, you must provide an SSH key to both the `ssh-agent` and the installation program. Create an SSH key if one does not already exist for password-less authentication on the RHEL machine.
 +
 
 ....
 [user@rhel7 ~]$  ssh-keygen -t rsa -b 4096 -N '' -f ~/.ssh/id_rsa
 ....
 
-. Start the  `ssh-agent`  process and configure it as a background running task.
+. Start the `ssh-agent` process and configure it as a background running task.
 +
 
 ....

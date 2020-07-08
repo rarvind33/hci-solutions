@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html
-keywords:
+keywords: hardware, software, Compute, Storage, Switches, Element, RHV, virtualization
 summary:
 ---
 

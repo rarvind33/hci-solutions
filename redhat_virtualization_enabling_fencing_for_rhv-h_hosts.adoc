@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_virtualization_enabling_fencing_for_rhv-h_hosts.html
-keywords:
+keywords: fencing, high availability, VM, power management
 summary:
 ---
 

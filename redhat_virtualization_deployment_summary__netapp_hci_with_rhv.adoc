@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_virtualization_deployment_summary__netapp_hci_with_rhv.html
-keywords:
+keywords: Summary, configuration, management switches, data switches, Element, Install, RHV-H, RHV Manager, VM, HA
 summary:
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_virtualization_design_considerations__netapp_hci_with_rhv.html
-keywords:
+keywords: Networking, Port, network design, cabling, storage nodes, VLAN, In-band, out-of-band
 summary:
 ---
 
@@ -38,17 +38,17 @@ The NetApp HCI with Red Hat Virtualization solution uses two data switches to pr
 
 ==== Cabling Storage Nodes
 
-The management ports A and B must be active on each storage node to configure the NetApp HCI cluster,  and provide management accessibility to Element after the solution is deployed.  The two 25Gbps ports (C and D) should be connected, one to each data switch,  to provide physical fault tolerance. The switch ports should be configured for multi-chassis link aggregation (MLAG) and the data ports on the node should be configured for LACP with jumbo- frames support enabled.  The IPMI ports on each node can be used to remotely manage the node after it is installed in a data center. With IPMI,  the node can be accessed with a web-browser- based console to run the initial installation,  run diagnostics, and reboot or shut down the node if necessary.
+The management ports A and B must be active on each storage node to configure the NetApp HCI cluster, and provide management accessibility to Element after the solution is deployed. The two 25Gbps ports (C and D) should be connected, one to each data switch, to provide physical fault tolerance. The switch ports should be configured for multi-chassis link aggregation (MLAG) and the data ports on the node should be configured for LACP with jumbo-frames support enabled. The IPMI ports on each node can be used to remotely manage the node after it is installed in a data center. With IPMI, the node can be accessed with a web-browser-based console to run the initial installation, run diagnostics, and reboot or shut down the node if necessary.
 
 ==== Cabling Compute Nodes
 
-The two 25Gbps ports (C and E) should be connected, one to each data switch, to provide physical fault tolerance. The switch ports should be configured for multi-chassis link aggregation (MLAG),  and the data ports on the node should be configured for LACP with jumbo-frames support enabled.  The IPMI ports can also be used to remotely manage the node after it is installed in a data center. With IPMI, the node can be accessed with a web-browser- based console to run the initial installation, run diagnostics,  and reboot or shut down the node if necessary.
+The two 25Gbps ports (C and E) should be connected, one to each data switch, to provide physical fault tolerance. The switch ports should be configured for multi-chassis link aggregation (MLAG), and the data ports on the node should be configured for LACP with jumbo-frames support enabled. The IPMI ports can also be used to remotely manage the node after it is installed in a data center. With IPMI, the node can be accessed with a web-browser- based console to run the initial installation, run diagnostics, and reboot or shut down the node if necessary.
 
 image:redhat_virtualization_image4.PNG[Error: Missing Graphic Image]
 
 === VLAN Requirements
 
-The solution is designed to logically separate network traffic for different purposes by using Virtual Local Area Networks (VLANs). NetApp HCI requires a minimum of three network segments. However,  this configuration can be scaled to meet customer demands or to provide further isolation for specific network services.  The following table lists the VLANs that are required to implement the solution, as well as the specific VLAN IDs that are used later in the validated architecture deployment.
+The solution is designed to logically separate network traffic for different purposes by using Virtual Local Area Networks (VLANs). NetApp HCI requires a minimum of three network segments. However, this configuration can be scaled to meet customer demands or to provide further isolation for specific network services. The following table lists the VLANs that are required to implement the solution, as well as the specific VLAN IDs that are used later in the validated architecture deployment.
 
 |===
 |VLANs |Purpose |VLAN Used
@@ -74,8 +74,8 @@ The solution is designed to logically separate network traffic for different pur
 
 The following infrastructure should be in place prior to the deployment of the Red Hat Virtualization on NetApp HCI solution:
 
-* At least one DNS server providing full host- name resolution that is accessible from the in- band management network and the VM network.
+* At least one DNS server providing full host-name resolution that is accessible from the in-band management network and the VM network.
 
-* At least one NTP server that is accessible from the in- band management network and the VM network.
+* At least one NTP server that is accessible from the in-band management network and the VM network.
 
-* Outbound internet connectivity is recommended,  but not required,  for both the in- band management network and the VM network.
+* Outbound internet connectivity is recommended, but not required, for both the in-band management network and the VM network.
