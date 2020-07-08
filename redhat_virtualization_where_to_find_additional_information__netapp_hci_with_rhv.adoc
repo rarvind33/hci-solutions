@@ -25,3 +25,5 @@ To learn more about the information described in this document, review the follo
 * NetApp HCI Documentation https://www.netapp.com/us/documentation/hci.aspx[https://www.netapp.com/us/documentation/hci.aspx^]
 
 * Red Hat Virtualization Documentation https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/[https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/^]
+
+* link:redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html[NVA-1149: NetApp HCI for Red Hat OpenShift on RHV] 

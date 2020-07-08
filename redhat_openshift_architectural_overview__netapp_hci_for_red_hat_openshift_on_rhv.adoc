@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
-keywords:
+keywords: hardware, software, HCI, Mellanox, Cisco, Nexus, Trident, RHV
 summary:
 ---
 

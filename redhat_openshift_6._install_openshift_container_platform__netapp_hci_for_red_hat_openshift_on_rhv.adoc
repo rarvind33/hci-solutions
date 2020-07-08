@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_6._install_openshift_container_platform__netapp_hci_for_red_hat_openshift_on_rhv.html
-keywords:
+keywords: Container platform, installation
 summary:
 ---
 
@@ -48,9 +48,9 @@ The installation program creates several files in the directory used for install
 +
 
 [NOTE]
-The binary files that you previously downloaded, such as  `openshift-install`  or  `oc` , can be copied to a directory that is in the user’s path (for example,   `/usr/local/bin` ) to make them easier to run.
+The binary files that you previously downloaded, such as `openshift-install` or `oc`, can be copied to a directory that is in the user’s path (for example, `/usr/local/bin`) to make them easier to run.
 
-. Create the cluster by running the  `openshift-install create cluster`  command and respond to the installation program prompts. Pass the SSH public key,  select ovirt from the platform, provide the RHV infrastructure details, provide the three reserved IP addresses and the downloaded pull secret to the installation program prompts. After all the inputs are provided, the installation program creates and configures a bootstrap machine with a temporary Kubernetes control plane which then creates and configures the master VMs with the production Kubernetes control plane. The control plane on the master nodes creates and configures the worker VMs.
+. Create the cluster by running the `openshift-install create cluster` command and respond to the installation program prompts. Pass the SSH public key, select ovirt from the platform, provide the RHV infrastructure details, provide the three reserved IP addresses and the downloaded pull secret to the installation program prompts. After all the inputs are provided, the installation program creates and configures a bootstrap machine with a temporary Kubernetes control plane which then creates and configures the master VMs with the production Kubernetes control plane. The control plane on the master nodes creates and configures the worker VMs.
 +
 
 It can take approximately 30–45 minutes to get the complete cluster up and running.
@@ -84,7 +84,7 @@ INFO Login to the console with user: kubeadmin, password: NtsqU-p3qUb-8Hscu-JfAq
 
 ....
 
-. When the cluster deployment is complete, the directions for accessing the OpenShift cluster,  including a link to its web console and credentials for the kubeadmin user,  are displayed. Make sure to take a note of these details.
+. When the cluster deployment is complete, the directions for accessing the OpenShift cluster, including a link to its web console and credentials for the kubeadmin user, are displayed. Make sure to take a note of these details.
 
 . Log in to the RHV Manager and observe that the VMs relating to the OCP cluster are up and running.
 

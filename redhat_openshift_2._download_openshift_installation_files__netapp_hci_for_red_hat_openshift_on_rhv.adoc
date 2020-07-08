@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_2._download_openshift_installation_files__netapp_hci_for_red_hat_openshift_on_rhv.html
-keywords:
+keywords: OpenShift, Installation, Cluster, Container, Platform
 summary:
 ---
 
@@ -39,9 +39,9 @@ image:redhat_openshift_image7.jpeg[Error: Missing Graphic Image]
 
 image:redhat_openshift_image8.jpeg[Error: Missing Graphic Image]
 
-. The next page allows you to download the OpenShift installer (available for Linux and MacOS), a unique pull secret that is required to create the  `install-config`  file and the  `oc`  command-line tools (available for Linux, Windows,  and MacOS).
+. The next page allows you to download the OpenShift installer (available for Linux and MacOS), a unique pull secret that is required to create the `install-config` file and the `oc` command-line tools (available for Linux, Windows, and MacOS).
 +
 
-Download the files, transfer them to a RHEL administrative workstation from where you can run the OpenShift installation,  or download these files directly using wget or curl on a RHEL administrative workstation.
+Download the files, transfer them to a RHEL administrative workstation from where you can run the OpenShift installation, or download these files directly using wget or curl on a RHEL administrative workstation.
 
 image:redhat_openshift_image9.jpeg[Error: Missing Graphic Image]

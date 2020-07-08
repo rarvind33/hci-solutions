@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_virtualization_2._configure_data_switches__netapp_hci_with_rhv.html
-keywords:
+keywords: Mellanox, MLAG cluster, fault tolerance, ILP, LLDP
 summary:
 ---
 
