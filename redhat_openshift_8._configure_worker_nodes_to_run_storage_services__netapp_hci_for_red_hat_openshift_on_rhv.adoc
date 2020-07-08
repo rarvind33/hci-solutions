@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_8._configure_worker_nodes_to_run_storage_services__netapp_hci_for_red_hat_openshift_on_rhv.html
-keywords:
+keywords: Element, iSCSI, worker nodes, storage services
 summary:
 ---
 
@@ -22,12 +22,12 @@ summary:
 
 To configure the worker nodes to run storage services, complete the following steps:
 
-. In order to access storage from the Element system, each of the worker nodes must have iSCSI available and running as a service. To create a machine configuration that can enable and start the iscisd service, log in to the OCP web console and navigate to Compute > Machine Configs and click Create Machine Config. Paste the YAML file and click Create.
+. To access storage from the Element system, each of the worker nodes must have iSCSI available and running as a service. To create a machine configuration that can enable and start the iscisd service, log in to the OCP web console and navigate to Compute > Machine Configs and click Create Machine Config. Paste the YAML file and click Create.
 +
 
 image:redhat_openshift_image14.png[Error: Missing Graphic Image]
 
-. After it is created, it will approximately 20–30 minutes to apply the configuration to the worker nodes and reload them.  Verify whether the machine config is applied by using  `oc get mcp`  and make sure that the machine config pool for workers is updated. You can also log in to the worker nodes to confirm that the iscsid service is running.
+. After the configuration is created, it will take approximately 20–30 minutes to apply the configuration to the worker nodes and reload them.  Verify whether the machine config is applied by using `oc get mcp` and make sure that the machine config pool for workers is updated. You can also log in to the worker nodes to confirm that the iscsid service is running.
 +
 
 ....
@@ -51,4 +51,4 @@ worker   rendered-worker-de321b36eeba62df41feb7bc   True      False      False
 ....
 
 [NOTE]
-It is also possible to confirm that the MachineConfig has been successfully applied and services have been started as expected by running the  `oc debug`  command with the appropriate flags.
+It is also possible to confirm that the MachineConfig has been successfully applied and services have been started as expected by running the `oc debug` command with the appropriate flags.

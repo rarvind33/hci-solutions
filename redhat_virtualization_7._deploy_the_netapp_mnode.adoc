@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_virtualization_7._deploy_the_netapp_mnode.html
-keywords:
+keywords: mnode, management node, Element, monitoring, telemetry, diagnositic tests, utilities
 summary:
 ---
 
@@ -32,14 +32,14 @@ The management node (mNode) is a VM that runs in parallel with one or more Eleme
 
 To install the NetApp mNode on Red Hat Virtualization, complete the following steps:
 
-. Upload the mNode ISO as a disk to the storage domain. Navigate to Storage > Disks > Upload and click Start. Then click Upload Image and select the downloaded mNode ISO image.  Verify the storage domain, the host to perform the upload, and additional details. Then click OK to upload the image to the domain. A progress bar indicates when the upload is complete and the ISO is usable.
+. Upload the mNode ISO as a disk to the storage domain. Navigate to Storage > Disks > Upload and click Start. Then click Upload Image and select the downloaded mNode ISO image. Verify the storage domain, the host to perform the upload, and additional details. Then click OK to upload the image to the domain. A progress bar indicates when the upload is complete and the ISO is usable.
 
-. Create a VM disk by navigating to Storage > Disks and click New. The mNode disk must be at least 400 GB in size but can be thin- provisioned. In the wizard, enter the name of your choice, select the proper data center, make sure that the proper storage domain is selected, select Thin Provisioning for the allocation policy,  and check the Wipe After Delete checkbox. Click OK.
+. Create a VM disk by navigating to Storage > Disks and click New. The mNode disk must be at least 400 GB in size but can be thin-provisioned. In the wizard, enter the name of your choice, select the proper data center, make sure that the proper storage domain is selected, select Thin Provisioning for the allocation policy, and check the Wipe After Delete checkbox. Click OK.
 +
 
 image:redhat_virtualization_image61.png[Error: Missing Graphic Image]
 
-. Next,  navigate to Compute > Virtual Machines and click New.  In the General sub-tab,  select the appropriate cluster, enter the name of your choice,  click attach,  and select the disk created in the previous step. Check the box below OS to emphasize that it is a bootable drive. Click OK.
+. Next, navigate to Compute > Virtual Machines and click New. In the General sub-tab, select the appropriate cluster, enter the name of your choice, click attach, and select the disk created in the previous step. Check the box below OS to emphasize that it is a bootable drive. Click OK.
 +
 
 image:redhat_virtualization_image62.png[Error: Missing Graphic Image]
@@ -62,17 +62,17 @@ image:redhat_virtualization_image65.jpg[Error: Missing Graphic Image]
 
 The VM is created.
 
-. After the VM becomes available, power it on,  and open a console to it. It begins to load the NetApp Solidfire mNode installer. When the installer is loaded,  you are prompted to start the RTFI magnesium installation;  type  `yes`  and press Enter. The installation process begins, and after it is complete, it automatically powers off the VM.
+. After the VM becomes available, power it on,  and open a console to it. It begins to load the NetApp Solidfire mNode installer. When the installer is loaded, you are prompted to start the RTFI magnesium installation;  type `yes` and press Enter. The installation process begins, and after it is complete, it automatically powers off the VM.
 +
 
 image:redhat_virtualization_image66.png[Error: Missing Graphic Image]
 
-. Next,  click the mNode VM and click Edit. In the Boot Options sub-tab, uncheck the Attach CD checkbox and click the OK button.
+. Next, click the mNode VM and click Edit. In the Boot Options sub-tab, uncheck the Attach CD checkbox and click the OK button.
 +
 
 image:redhat_virtualization_image67.jpg[Error: Missing Graphic Image]
 
-. Power on the mNode VM.  Using the terminal user interface (TUI), create a management node admin user.
+. Power on the mNode VM. Using the terminal user interface (TUI), create a management node admin user.
 +
 
 [NOTE]
@@ -83,12 +83,12 @@ image:redhat_virtualization_image68.jpg[Error: Missing Graphic Image]
 
 . After the user is created, you are returned to a login screen. Log in with the credentials that were just created.
 
-. To configure the network interfaces starting with the management interface, navigate to Network > Network Config > eth0 and enter the IP address, netmask,  gateway,  DNS servers,  and search domain for your environment. Click OK.
+. To configure the network interfaces starting with the management interface, navigate to Network > Network Config > eth0 and enter the IP address, netmask, gateway, DNS servers, and search domain for your environment. Click OK.
 +
 
 image:redhat_virtualization_image69.jpg[Error: Missing Graphic Image]
 
-. Next,  configure eth1 to access the storage network. Navigate to Network > Network Config > eth1 and enter the IP address and netmask. Verify that the MTU is 9000. Then click OK.
+. Next, configure eth1 to access the storage network. Navigate to Network > Network Config > eth1 and enter the IP address and netmask. Verify that the MTU is 9000. Then click OK.
 +
 
 image:redhat_virtualization_image70.jpg[Error: Missing Graphic Image]
@@ -96,7 +96,7 @@ image:redhat_virtualization_image70.jpg[Error: Missing Graphic Image]
 
 You can now close the TUI interface.
 
-. SSH into the management node using the management IP,  escalate to root and register the mNode with the HCI storage cluster.
+. SSH into the management node using the management IP, escalate to root and register the mNode with the HCI storage cluster.
 +
 
 ....
@@ -145,7 +145,7 @@ Enter password for mNode user admin:
 [2020-05-21T17:21:03.243117Z]:[mnodecfg:185] INFO:Configuration Successfully Completed
 ....
 
-. Using a browser, log into the management node GUI using  `https://<mNodeIP`  `>` . mNode or Hybrid Cloud Control facilitates expansion, monitoring,  and upgrading the Element cluster.
+. Using a browser, log into the management node GUI using `https://<mNodeIP` `>`. mNode or Hybrid Cloud Control facilitates expansion, monitoring, and upgrading the Element cluster.
 +
 
 image:redhat_virtualization_image71.jpg[Error: Missing Graphic Image]

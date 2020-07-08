@@ -173,7 +173,7 @@ Element was designed for automation. All the storage features mentioned above ca
 
 Red Hat Virtualization (RHV) is an enterprise virtual data center platform that runs on Red Hat Enterprise Linux using the KVM hypervisor.
 
-For more information about Red Hat Virtualization,  see the website located  https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization[here^].
+For more information about Red Hat Virtualization, see the website located https://www.redhat.com/en/technologies/virtualization/enterprise-virtualization[here^].
 
 RHV provides the following features:
 

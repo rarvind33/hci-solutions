@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: redhat_openshift_deployment_summary.html
-keywords:
+keywords: configuration, deploy, DNS, SSH, Operator, Trident
 summary:
 ---
 
