@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: cleondris_add_netapp_hci_clusters.html
+keywords:
+summary:
+---
+
+= Add NetApp HCI Clusters
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.716454
+//
+
+[.lead]
+
+To add the NetApp HCI clusters, complete the following steps:
+
+. Change to the NetApp tab and add your production and disaster recovery storage. Again, add a good description and use the Test button.
+
+image:cleondris_image11.png[Error: Missing Graphic Image]
+
+. When you have added your storage and vCenter Servers, change to the Inventory view so that you can see the results of your configuration.
+
+image:cleondris_image12.png[Error: Missing Graphic Image]
+
+Here you can see the number of objects, which is a good way to confirm that things are working.

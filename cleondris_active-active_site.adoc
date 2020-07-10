@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: cleondris_active-active_site.html
+keywords:
+summary:
+---
+
+= Active-Active Site
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.915032
+//
+
+[.lead]
+
+Currently, to protect an active-active site, you must install HCC on both sites and protect as normal. There is currently no overview of the protection. Active-active is the best model, because you can split your applications over two sites; when there is an outage, you only need to fail over half.

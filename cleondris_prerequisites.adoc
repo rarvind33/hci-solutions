@@ -1,0 +1,46 @@
+---
+sidebar: sidebar
+permalink: cleondris_prerequisites.html
+keywords:
+summary:
+---
+
+= Prerequisites
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.589851
+//
+
+[.lead]
+
+There are several things to have ready before you start with the installation.  
+
+This technical report assumes that you have your NetApp HCI infrastructure working at both your production site and your disaster recovery site.
+
+* DNS.  You should have DNS prepared for your HCC disaster recovery tool when you install it.
+
+* FQDN.  A fully qualified domain name for the disaster recovery tool should be prepared before installation.
+
+* IP address.  The IP will be part of the FQDN before it is put into DNS.
+
+* NTP.  You need a Network Time Protocol (NTP) server address. It can be either your own internal or external address,  but it needs to be accessible.
+
+* Storage location.  When you install HCC,  you must know which datastore it should be installed to.
+
+* vCenter Server service account.  You will need to have a service account created in vCenter Server on both the disaster recovery and production side for HCC to use.  It does not require administrator- level permissions at the root level. If you like,  you can find exactly what is required in the HCC user guide.
+
+* NetApp HCI service account.  You need a service account in your NetApp HCI storage for both the disaster recovery and production side for HCC to use.  Full access is required.
+
+* Test network.  This network should be connected to all your hosts in the disaster recovery site, and it should be isolated and nonrouting. This network is used to make sure applications work during a test failover.  The built-in test network that is temporary only is a one- host network. Therefore, if your test failover has VMs scattered on multiple hosts,  they will not be able to communicate. I recommend that you create a distributed port group in the disaster recovery site that spans all hosts but is isolated and nonrouting. Testing is important to success.
+
+* RTOs.  You should have RTOs approved by management for your application groups. Often it is 1 or 2 hours for tier 1 applications;  for tier 4 applications,  it can be as long as 12 hours.  These decisions must be approved by management because they will determine how quickly things work after a critical outage. These times will determine replication schedules.
+
+* Application information.  You should know which application you need to protect first,  and what it needs to work.  For example,  Microsoft Exchange needs a domain controller that has a role of Global Catalog to start.  In my own experience,  a customer said that they had one email server to protect. It did not test well,  and when I investigated,  I discovered the customer had 24 VMs that were part of the email application.
+

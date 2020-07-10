@@ -1,0 +1,52 @@
+---
+sidebar: sidebar
+permalink: cleondris_multitier_applications.html
+keywords:
+summary:
+---
+
+= Multitier Applications
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.774016
+//
+
+[.lead]
+
+. From the Failover page,  select the Plans tab.
+
+image:cleondris_image18.png[Error: Missing Graphic Image]
+
+. On the far right is an +Add Failover Group button. 
+
+image:cleondris_image19.png[Error: Missing Graphic Image]
+
+In this example, we called this plan Multi-Tier. We will use the network mapping in the bottom left to change the virtual switch that is in use on production to the one in use on DR.
+
+image:cleondris_image20.png[Error: Missing Graphic Image]
+
+The previous screenshot shows how you can choose the network switch in production and then in DR, use the Map button to select them,  and then use Save. You can have more than one mapping if necessary.
+
+. To select the VMs to protect,  click Add Failover Group.
+
+Because this plan will protect multitier applications,  the first group will be for databases.
+
+image:cleondris_image21.png[Error: Missing Graphic Image]
+
+Notice how this example enables Wait for VMware Tools.  This setting is important,  because it helps make sure that the applications are running. We used the Add VM button to add VMs that are databases. We didn’t enable Unregister Source VMs,  because it will slow down the failover. We now use the Add Failover button to protect the applications.
+
+. Do the same thing for web servers. When that is done,  the screen resembles the following example.
+
+image:cleondris_image22.png[Error: Missing Graphic Image]
+
+The important part of this plan is to get all the databases working;  then the applications start, find the databases,  and start working.  Then the web servers start, and the applications are complete and working. This approach is the fastest way to set up this sort of recovery.
+
+. Click Save before you continue.
+

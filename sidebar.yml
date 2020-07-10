@@ -184,6 +184,91 @@ entries:
         url: https://www.netapp.com/us/media/tr-4634.pdf
       - title: NetApp Scale-Out Data Protection with Commvault
         url: http://www.netapp.com/us/media/tr-4831.pdf
+      - title: NetApp HCI Disaster Recovery with Cleondris
+        entries:
+          - title: Abstract
+            url: /cleondris_abstract.html
+            output: pdf
+          - title: Executive Summary
+            url: /cleondris_executive_summary.html
+          - title: Disaster Recovery Overview
+            entries:
+              - title: Overview of BCDR
+                url: /cleondris_overview_of_bcdr_.html
+              - title: Business Impact Assessment
+                url: /cleondris_business_impact_assessment.html
+              - title: Application Catalog
+                url: /cleondris_application_catalog.html
+              - title: What Not to Protect
+                url: /cleondris_what_not_to_protect.html
+          - title: Product Overview
+            url: /cleondris_product_overview.html
+          - title: Product Installation
+            entries:
+              - title: Prerequisites
+                url: /cleondris_prerequisites.html
+              - title: Download Information
+                url: /cleondris_download_information.html
+              - title: License
+                url: /cleondris_license.html
+              - title: Deployment
+                url: /cleondris_deployment.html
+              - title: Initial Configuration
+                url: /cleondris_initial_configuration.html
+          - title: Patching Cleondris
+            url: /cleondris_patching_cleondris.html
+          - title: Inventory
+            entries:
+              - title: Overview
+                url: /cleondris_overview_.html
+              - title: Add vCenter Servers
+                url: /cleondris_add_vcenter_servers.html
+              - title: Add NetApp HCI Clusters
+                url: /cleondris_add_netapp_hci_clusters.html
+              - title: Replication
+                url: /cleondris_replication.html
+          - title: Disaster Recovery Pairing
+            url: /cleondris_disaster_recovery_pairing.html
+          - title: Recovery Organization
+            entries:
+              - title: Disaster Recovery Orchestration
+                url: /cleondris_disaster_recovery_orchestration.html
+              - title: Multitier Applications
+                url: /cleondris_multitier_applications.html
+              - title: Simple or Mass Applications to Fail Over
+                url: /cleondris_simple_or_mass_applications_to_fail_over.html
+              - title: Planned Migration
+                url: /cleondris_planned_migration.html
+              - title: Plan of Plans
+                url: /cleondris_plan_of_plans.html
+          - title: Test Failover
+            url: /cleondris_test_failover.html
+          - title: Failover
+            url: /cleondris_failover.html
+          - title: Monitoring
+            entries:
+              - title: Monitoring During a Failover
+                url: /cleondris_monitoring_during_a_failover.html
+              - title: Looking at History When No Failover Is Running
+                url: /cleondris_looking_at_history_when_no_failover_is_running.html
+          - title: Appendix
+            entries:
+              - title: Recommendations for Success
+                url: /cleondris_recommendations_for_success.html
+              - title: Additional Uses for Disaster Recovery Orchestration Tools
+                url: /cleondris_additional_uses_for_disaster_recovery_orchestration_tools.html
+              - title: Active-Active Site
+                url: /cleondris_active-active_site.html
+              - title: Allowing Extra Resources in Test Failover
+                url: /cleondris_allowing_extra_resources_in_test_failover.html
+              - title: Syslog
+                url: /cleondris_syslog.html
+              - title: VM State
+                url: /cleondris_vm_state.html
+              - title: Add an Execute-Only Account
+                url: /cleondris_add_an_execute-only_account.html
+          - title: Additional Information
+            url: /cleondris_additional_information.html
   - title: Artificial Intelligence (AI)
     entries:
       - title: AI Inferencing on the Edge Data Center with H615c and NVIDIA T4

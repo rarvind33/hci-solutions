@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: cleondris_failover.html
+keywords:
+summary:
+---
+
+= Failover
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.844192
+//
+
+[.lead]
+
+At first, the failover is the same as the test failover. But the procedure changes when you arrive at the point shown here:
+
+. Instead of selecting the Failover to Sandbox option,  select Start.
+
+image:cleondris_image29.png[Error: Missing Graphic Image]
+
+. Select Yes.
+
+image:cleondris_image30.png[Error: Missing Graphic Image]
+
+. The screen shows that this is a failover, and it is running. For more information, use the magnifying glass (discussed in the “Monitoring” section).
+
+image:cleondris_image31.png[Error: Missing Graphic Image]
+
