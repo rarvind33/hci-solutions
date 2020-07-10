@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: cleondris_additional_uses_for_disaster_recovery_orchestration_tools.html
+keywords:
+summary:
+---
+
+= Additional Uses for Disaster Recovery Orchestration Tools
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.906222
+//
+
+[.lead]
+
+Over time, customers have found other uses for disaster recovery orchestration tools. For example, they test application and OS upgrades in a test failover. This testing is better than testing in a lab, because it uses the actual production bits—which means that, when done in production, the process will be as smooth as in the test failover. I have also seen security vulnerability testing done as a test failover first to determine what applications might be negatively affected.

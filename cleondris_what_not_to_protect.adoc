@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: cleondris_what_not_to_protect.html
+keywords:
+summary:
+---
+
+= What Not to Protect
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.569093
+//
+
+[.lead]
+
+There are applications that should not be protected.
+
+For example, you can easily and cheaply have a domain controller running as a virtual machine (VM) at your disaster recovery site, so there is no need to protect one. In fact, recovering a domain controller can cause issues if you do and recover it. Monitoring software that is used in the production site will not necessarily work in the disaster recovery site if it is recovered there.
+
+It is usually unnecessary to protect applications that can be protected with high availability. High availability is the best possible protection; its failover times are often less than a second. Therefore, disaster recovery orchestration tools should not protect these applications, but high availability can. An example is the software in banks that support ATMs.
+
+You can tell that you need to look at high-availability solutions for an application when an application owner has a 20-second recovery time objective (RTO). That RTO is beyond replication solutions.

@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: cleondris_plan_of_plans.html
+keywords:
+summary:
+---
+
+= Plan of Plans
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.813748
+//
+
+[.lead]
+
+With a plan of plans, you can trigger one plan and it will take care of all the failover plans.
+
+The Plans tab contains a Plan of Plans section. You can use the +Add Sub-Plan to start a plan and add other plans to it.
+
+image:cleondris_image24.png[Error: Missing Graphic Image]
+
+In this example, the plan of plans is called Master Plan, and we added the two plans to it. Now when we execute a failover, or test failover, we will have the option for the Master Plan too.
+
+This approach is good because it is best to test your application failovers in their own plan. Each plan is much easier to troubleshoot and fix, and when it is working well, you add it to your master plan.

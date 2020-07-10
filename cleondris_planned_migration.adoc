@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: cleondris_planned_migration.html
+keywords:
+summary:
+---
+
+= Planned Migration
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.804935
+//
+
+[.lead]
+
+Planned migration is similar to a disaster recovery failover, but because it is not a disaster recovery situation, it can be handled slightly differently. It is still good to practice the planned migration, but you can add something to your failover group: You can unregister the VM from the source. That takes a little more time, but in a planned migration that is not a bad thing.
+
+A planned migration is usually a move to a new domain controller. Sometimes it is also used if destructive weather is approaching but has not yet arrived.

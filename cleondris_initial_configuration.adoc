@@ -1,0 +1,40 @@
+---
+sidebar: sidebar
+permalink: cleondris_initial_configuration.html
+keywords:
+summary:
+---
+
+= Initial Configuration
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.662874
+//
+
+[.lead]
+
+To start the initial configuration, complete the following steps:
+
+. This phase involves doing the configuration in the Appliance Configurator, which is the VM console. So, after the appliance powers up, change to work in the console by using the VMware Remote Console (VMRC) or the HTML5 VMRC version. Look for a blue Cleondris screen.
++
+
+image:cleondris_image5.png[Error: Missing Graphic Image]
+
+. Press any key to proceed, and configure the following:
+
+** The web administrator password
+
+** The network configuration: IP, DNS, and so on
+
+** The time zone
+
+** NTP
+
+. Select the Reboot and Activate Network/NTP Settings. You will see the appliance reboot. Afterward, do a ping test to confirm the FQDN and IP.

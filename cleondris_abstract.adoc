@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: cleondris_abstract.html
+keywords:
+summary:
+---
+
+= Abstract
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:31:55.434240
+//
+
+[.lead]
+
+This document helps you protect your enterprise using NetApp HCI and Cleondris software.

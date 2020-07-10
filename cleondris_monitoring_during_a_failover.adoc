@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: cleondris_monitoring_during_a_failover.html
+keywords:
+summary:
+---
+
+= Monitoring During a Failover
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.860241
+//
+
+[.lead]
+
+. When a failover or a test failover is running, you can monitor it by using the magnifying glass at the far right.
++
+
+image:cleondris_image32.png[Error: Missing Graphic Image]
+
+. Click the magnifying glass to see much more detail.
++
+
+image:cleondris_image33.png[Error: Missing Graphic Image]
+
+. As the failover or test failover progresses, a VM Screenshots option appears.
++
+
+image:cleondris_image34.png[Error: Missing Graphic Image]
+
+Sometimes it is useful to see the screenshots to confirm that the VM is running. It is not logged in, so you cannot tell if the applications are running, but at least you know that the VM is.

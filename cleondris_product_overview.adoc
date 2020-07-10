@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: cleondris_product_overview.html
+keywords:
+summary:
+---
+
+= Product Overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.579660
+//
+
+[.lead]
+
+Cleondris HCC adds disaster recovery capabilities to new and existing NetApp HCI deployments. It is fully integrated with the NetApp SolidFire storage engine and can protect any kind of data and applications.
+
+When a customer site fails, HCC can be used to recover all data at a secondary NetApp HCI site, including policy-based VM startup orchestration.
+
+Setting up replication for multiple volumes can be time consuming and error prone when performed manually. HCC can help with its Replication Wizard. The wizard helps set up the replication correctly so that the servers can access the volumes if a disaster occurs.
+
+With HCC, the VMware environment can be started on the secondary system in a sandbox without affecting production. The VMs are started in an isolated network and a functional test is possible. 

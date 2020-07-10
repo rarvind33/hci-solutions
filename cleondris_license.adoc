@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: cleondris_license.html
+keywords:
+summary:
+---
+
+= License
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.632753
+//
+
+[.lead]
+
+Your license will arrive in an email when you purchase or if you get a not-for-resale (NFR) version. You can get a trial license through the https://support.cleondris.com/[Cleondris Support Portal^].

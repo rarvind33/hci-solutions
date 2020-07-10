@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: cleondris_looking_at_history_when_no_failover_is_running.html
+keywords:
+summary:
+---
+
+= Looking at History When No Failover Is Running
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.872455
+//
+
+[.lead]
+
+To view past tests or failovers, click the Show Historical button on the Activity tab. Use the magnifying glass for more detail.
+
+image:cleondris_image32.png[Error: Missing Graphic Image]
+
+image:cleondris_image35.png[Error: Missing Graphic Image]
+
+You can also download a report with the details.
+
+image:cleondris_image33.png[Error: Missing Graphic Image]
+
+These reports have various uses—for example, to prove to an application owner that you tested the failover of that application. Or, if a test failover didn’t work, the report can provide details that might help you troubleshoot.

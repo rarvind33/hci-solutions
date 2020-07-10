@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: cleondris_overview_of_bcdr_.html
+keywords:
+summary:
+---
+
+= Overview of BCDR
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 0.9 (July 10, 2020)
+//
+// 2020-07-10 10:54:35.544495
+//
+
+[.lead]
+
+The business continuity and disaster recovery (BCDR) model is about getting people back to work.
+
+Disaster recovery focuses on bringing technology, such as an email server, back to life. Business continuity makes it possible for people to access that email server. Disaster recovery alone would mean that the technology is working, but nobody is likely to be using it; BCDR means that people are using the technology that is back. 
