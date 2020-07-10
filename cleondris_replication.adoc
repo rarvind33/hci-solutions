@@ -20,9 +20,8 @@ summary:
 
 [.lead]
 
-You can use HCC to enable replication between your two sites.  This allows us to stay in the HCC UI and decide what volumes to replicate.
+You can use HCC to enable replication between your two sites. This allows us to stay in the HCC UI and decide what volumes to replicate.
 
-Important:  If a replicated volume contains VMs that are in two plans, only the first plan that fails over will work,  because it will disable replication on that volume.
+Important: If a replicated volume contains VMs that are in two plans, only the first plan that fails over will work, because it will disable replication on that volume.
 
-I recommend that each tier 1 application have its own volume. Tier 4 applications can all be on one volume,  but there should be only one failover plan.
-
+I recommend that each tier 1 application have its own volume. Tier 4 applications can all be on one volume, but there should be only one failover plan.

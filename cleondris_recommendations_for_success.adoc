@@ -20,11 +20,11 @@ summary:
 
 [.lead]
 
-I have a serious amount of real- world experience with BCDR,  so here are some useful tips to help you be more successful with your BCDR work. (I learned these tips the hard way. )
+I have a serious amount of real-world experience with BCDR, so here are some useful tips to help you be more successful with your BCDR work. (I learned these tips the hard way.)
 
 === Applications
 
-Know your applications and what makes them work. The more time you spend on them,  the better your test and real failovers will work. When there are issues,  you will be able to solve them faster.
+Know your applications and what makes them work. The more time you spend on them, the better your test and real failovers will work. When there are issues, you will be able to solve them faster.
 
 Protect one application first. Choose a somewhat simple one, and demo the test failover to your peers and management. The demonstration will help you with management and peer support, and the test will help you learn more before you protect other applications.
 
@@ -32,15 +32,15 @@ Your tier 1 applications should be on their own volume.
 
 === Practice
 
-You need to practice often, in as realistic a scenario as possible. For example, practice off-site,  sometimes with poor internet in a hotel conference room. Practicing often is key, and try changing the teams around so that application team X is recovering application Y; this approach will help in knowledge sharing. 
+You need to practice often, in as realistic a scenario as possible. For example, practice off-site, sometimes with poor internet in a hotel conference room. Practicing often is key, and try changing the teams around so that application team X is recovering application Y; this approach will help in knowledge sharing.
 
 === Executive Sponsor
 
-Make sure to have an executive sponsor. You’ll need executive support when teams are not working well together, or when you need application teams to be reasonable about recovery time. 
+Make sure to have an executive sponsor. You’ll need executive support when teams are not working well together, or when you need application teams to be reasonable about recovery time.
 
 === Plan for Partial or Full Outage
 
-Most disaster recovery events are partial ones,  so make sure your tier 1 applications can be recovered without having to recover everything.
+Most disaster recovery events are partial ones, so make sure your tier 1 applications can be recovered without having to recover everything.
 
 === Trigger Time
 
@@ -56,7 +56,6 @@ There are several possible reasons for a disaster recovery plan failing:
 
 * The executive sponsor is missing or not assigned.
 
-* There isn’t enough practice,  or it isn’t real enough.
+* There isn’t enough practice, or it isn’t real enough.
 
 * Data from the test gets into the product. This situation is serious and must be avoided.
-

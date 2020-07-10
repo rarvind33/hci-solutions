@@ -22,13 +22,14 @@ summary:
 
 To add the vCenter Servers, complete the following steps:
 
-. Change to the VMware tab and add your two vCenter Servers. When you are defining them,  add a good description and use the Test button. 
+. Change to the VMware tab and add your two vCenter Servers. When you are defining them,  add a good description and use the Test button.
++
 
 image:cleondris_image9.png[Error: Missing Graphic Image]
++
 
-This example uses an IP address instead of an FQDN. (This FQDN didn’t work at first; I later found out that I had not entered the proper DNS information. After correcting the DNS information, the FQDN worked fine. ) Also notice the description, which is useful. 
+This example uses an IP address instead of an FQDN. (This FQDN didn’t work at first; I later found out that I had not entered the proper DNS information. After correcting the DNS information, the FQDN worked fine.) Also notice the description, which is useful. 
 
-. After both vCenter Servers are done,  the screen displays them.
+. After both vCenter Servers are done, the screen displays them.
 
 image:cleondris_image10.png[Error: Missing Graphic Image]
-

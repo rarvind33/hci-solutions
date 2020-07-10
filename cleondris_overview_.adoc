@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Overview 
+= Overview
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -28,5 +28,4 @@ You now configure Cleondris to communicate with your vCenter Servers and storage
 
 . You will be prompted to do some configuration but skip it. It is better to do it as detailed later in this paper.
 
-. When you log back in and see the green boxes,  you must change to the Setup area.
-
+. When you log back in and see the green boxes, you must change to the Setup area.

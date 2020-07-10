@@ -20,13 +20,12 @@ summary:
 
 [.lead]
 
-It is useful to capture events from Cleondris by using syslog. Groups such as security or operations might benefit. 
+It is useful to capture events from Cleondris by using syslog. Groups such as security or operations might benefit.
 
-. To do this, use the Setup page and the Events tab.  Then use the Add Receiver button.
+. To do this, use the Setup page and the Events tab. Then use the Add Receiver button.
 
-. Specify which event to send. In this example, the best idea might be to send all of them for now. Select the boxes;  some do not apply to Cleondris HCC and BCDR,  but they will not be generated if not used.
+. Specify which event to send. In this example, the best idea might be to send all of them for now. Select the boxes; some do not apply to Cleondris HCC and BCDR, but they will not be generated if not used.
 
 You can see the BCDR events in the Events section at the bottom of the list.
 
 image:cleondris_image37.png[Error: Missing Graphic Image]
-

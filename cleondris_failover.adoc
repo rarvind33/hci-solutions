@@ -23,14 +23,16 @@ summary:
 At first, the failover is the same as the test failover. But the procedure changes when you arrive at the point shown here:
 
 . Instead of selecting the Failover to Sandbox option,  select Start.
++
 
 image:cleondris_image29.png[Error: Missing Graphic Image]
 
 . Select Yes.
++
 
 image:cleondris_image30.png[Error: Missing Graphic Image]
 
 . The screen shows that this is a failover, and it is running. For more information, use the magnifying glass (discussed in the “Monitoring” section).
++
 
 image:cleondris_image31.png[Error: Missing Graphic Image]
-

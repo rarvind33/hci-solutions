@@ -20,7 +20,7 @@ summary:
 
 [.lead]
 
-To view past tests or failovers, click the Show Historical button on the Activity tab.  Use the magnifying glass for more detail.
+To view past tests or failovers, click the Show Historical button on the Activity tab. Use the magnifying glass for more detail.
 
 image:cleondris_image32.png[Error: Missing Graphic Image]
 
@@ -31,4 +31,3 @@ You can also download a report with the details.
 image:cleondris_image33.png[Error: Missing Graphic Image]
 
 These reports have various uses—for example, to prove to an application owner that you tested the failover of that application. Or, if a test failover didn’t work, the report can provide details that might help you troubleshoot.
-

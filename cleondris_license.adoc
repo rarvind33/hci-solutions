@@ -20,5 +20,4 @@ summary:
 
 [.lead]
 
-Your license will arrive in an email when you purchase or if you get a not-for-resale (NFR) version. You can get a trial license through the  https://support.cleondris.com/[Cleondris Support Portal^].
-
+Your license will arrive in an email when you purchase or if you get a not-for-resale (NFR) version. You can get a trial license through the https://support.cleondris.com/[Cleondris Support Portal^].

@@ -22,13 +22,17 @@ summary:
 
 To learn more about the information that is described in this document, review the following websites:
 
-* NetApp HCI Documentation Center https://docs.netapp.com/hci/index.jsp[https://docs.netapp.com/hci/index.jsp^] 
+* NetApp HCI Documentation Center
+https://docs.netapp.com/hci/index.jsp[https://docs.netapp.com/hci/index.jsp^]
 
-* NetApp HCI Documentation Resources page https://www.netapp.com/us/documentation/hci.aspx[https://www.netapp.com/us/documentation/hci.aspx^] 
+* NetApp HCI Documentation Resources page
+https://www.netapp.com/us/documentation/hci.aspx[https://www.netapp.com/us/documentation/hci.aspx^]
 
-* NetApp Product Documentation https://www.netapp.com/us/documentation/index.aspx[https://www.netapp.com/us/documentation/index.aspx^] 
+* NetApp Product Documentation
+https://www.netapp.com/us/documentation/index.aspx[https://www.netapp.com/us/documentation/index.aspx^]
 
-* Cleondris HCC product page https://www.cleondris.com/en/hci-control-center.xhtml[https://www.cleondris.com/en/hci-control-center.xhtml^]
+* Cleondris HCC product page
+https://www.cleondris.com/en/hci-control-center.xhtml[https://www.cleondris.com/en/hci-control-center.xhtml^]
 
-* Cleondris Support Portal https://support.cleondris.com/[https://support.cleondris.com/^]
-
+* Cleondris Support Portal
+https://support.cleondris.com/[https://support.cleondris.com/^]

@@ -20,13 +20,12 @@ summary:
 
 [.lead]
 
-With a plan of plans,  you can trigger one plan and it will take care of all the failover plans.
+With a plan of plans, you can trigger one plan and it will take care of all the failover plans.
 
 The Plans tab contains a Plan of Plans section. You can use the +Add Sub-Plan to start a plan and add other plans to it.
 
 image:cleondris_image24.png[Error: Missing Graphic Image]
 
-In this example, the plan of plans is called Master Plan, and we added the two plans to it. Now when we execute a failover, or test failover,  we will have the option for the Master Plan too.
+In this example, the plan of plans is called Master Plan, and we added the two plans to it. Now when we execute a failover, or test failover, we will have the option for the Master Plan too.
 
 This approach is good because it is best to test your application failovers in their own plan. Each plan is much easier to troubleshoot and fix, and when it is working well, you add it to your master plan.
-

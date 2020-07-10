@@ -20,11 +20,10 @@ summary:
 
 [.lead]
 
-The order in which the VMs start is important,  so that they work;  that is what the previous section accomplished. Now we will fail over a set of VMs for which order is unimportant.
+The order in which the VMs start is important, so that they work; that is what the previous section accomplished. Now we will fail over a set of VMs for which order is unimportant.
 
 Let’s create a new failover plan, with one failover group that has several VMs. We still need to do the network mapping.
 
 image:cleondris_image23.png[Error: Missing Graphic Image]
 
-Notice that there are several VMs in this plan.  They will also start at different times,  but that is OK because they are not related to each other.
-
+Notice that there are several VMs in this plan. They will also start at different times, but that is OK because they are not related to each other.
