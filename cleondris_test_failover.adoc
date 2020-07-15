@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: cleondris_test_failover.html
-keywords:
+keywords: testing, failover, plan, VM
 summary:
 ---
 
@@ -20,7 +20,7 @@ summary:
 
 [.lead]
 
-A test failover is important, because it will prove—to yourself, to your application owner, to your manager, and to the BCDR people—that the disaster recovery plans work.
+A test failover is important, because it proves to yourself, to your application owner, to your manager, and to the BCDR people that your disaster recovery plan works.
 
 To test failover, complete the following steps:
 
