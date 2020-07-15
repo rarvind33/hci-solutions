@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: cleondris_disaster_recovery_pairing.html
-keywords:
+keywords: protection, replication wizard, protected volumes, DR site
 summary:
 ---
 

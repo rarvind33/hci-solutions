@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Additional Information
+= Where to Find Additional Information
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: cleondris_patching_cleondris.html
-keywords:
+keywords: Update, appliance, patch, patching
 summary:
 ---
 
