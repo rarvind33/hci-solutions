@@ -116,7 +116,7 @@ You should make sure to test your script before you copy and paste it into this 
 
 If you follow the execution, the following screenshot indicates that the script ran successfully.
 
-link:cleondris_image43.png[Error: Missing Graphic Image]
+image:cleondris_image43.png[Error: Missing Graphic Image]
 
 If the exit code is anything other than 0, then the script was not successful.
 
@@ -133,10 +133,10 @@ It is a best practice to run simple scripts that only perform essential tasks. Y
 == Environment Variables
 Environmental variables allow a running script to pull information from the environment whether the script is running at the production site or a DR site. Environment variables can be entered in Edit Failover Group dialog box. You can first edit your plan and then edit your failover group.
 
-link:cleondris_image44.png[Error: Missing Graphic Image]
+images:cleondris_image44.png[Error: Missing Graphic Image]
 
 Note that these environment variables are not in the environment that we normally think of, and you cannot use the set command to see them. To see the full list of variables, run the script from the following screenshot. This script contains `Get-Variable * > c:\utils\var_log.txt` to capture all variables.
 
-link:cleondris_image45.png[Error: Missing Graphic Image]
+image:cleondris_image45.png[Error: Missing Graphic Image]
 
 This lists the 50+ variables available plus any variable that you have added, which are seen at the end of the list.
