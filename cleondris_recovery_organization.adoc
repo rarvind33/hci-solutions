@@ -94,7 +94,7 @@ In this example, the plan of plans is called Master Plan, and we added the two p
 
 This approach is good because it is best to test your application failovers in their own plan. Each plan is much easier to troubleshoot and fix, and when it is working well, you add it to your master plan.
 
-== 8.6	Script Support
+== Script Support
 
 You can use scripts as part of a test failover or for a wide range of other purposes. Uses include the following:
 
@@ -133,7 +133,7 @@ It is a best practice to run simple scripts that only perform essential tasks. Y
 == Environment Variables
 Environmental variables allow a running script to pull information from the environment whether the script is running at the production site or a DR site. Environment variables can be entered in Edit Failover Group dialog box. You can first edit your plan and then edit your failover group.
 
-images:cleondris_image44.png[Error: Missing Graphic Image]
+image:cleondris_image44.png[Error: Missing Graphic Image]
 
 Note that these environment variables are not in the environment that we normally think of, and you cannot use the set command to see them. To see the full list of variables, run the script from the following screenshot. This script contains `Get-Variable * > c:\utils\var_log.txt` to capture all variables.
 
