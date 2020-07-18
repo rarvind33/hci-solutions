@@ -5,7 +5,7 @@ keywords: protection, replication wizard, protected volumes, DR site
 summary:
 ---
 
-= Disaster Recovery Pairing
+= Disaster Recovery Pairing: NetApp HCI DR with Cleondris
 :hardbreaks:
 :nofooter:
 :icons: font

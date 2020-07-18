@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: cleondris_inventory.html
+permalink: cleondris_configuring_cleondris.html
 keywords: communicate, configure, license, vCenter, clusters, inventory, volume
 summary:
 ---
 
-= Inventory
+= Configuring Cleondris: NetApp HCI DR with Cleondris
 :hardbreaks:
 :nofooter:
 :icons: font

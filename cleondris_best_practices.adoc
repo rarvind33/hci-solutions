@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: cleondris_appendix.html
+permalink: cleondris_best_practices.html
 keywords:
 summary:
 ---
 
-= Appendix
+= Best Practices: NetApp HCI DR with Cleondris
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -189,30 +189,20 @@ entries:
           - title: Abstract
             url: /cleondris_abstract.html
             output: pdf
-          - title: Executive Summary
-            url: /cleondris_executive_summary.html
           - title: Disaster Recovery Overview
             url: /cleondris_disaster_recovery_overview.html
-          - title: Product Overview
-            url: /cleondris_product_overview.html
-          - title: Product Installation
-            url: /cleondris_product_installation.html
-          - title: Patching Cleondris
-            url: /cleondris_patching_cleondris.html
-          - title: Inventory
-            url: /cleondris_inventory.html
+          - title: Installing Cleondris
+            url: /cleondris_installing_cleondris.html
+          - title: Configuring Cleondris
+            url: /cleondris_configuring_cleondris.html
           - title: Disaster Recovery Pairing
             url: /cleondris_disaster_recovery_pairing.html
           - title: Recovery Organization
             url: /cleondris_recovery_organization.html
-          - title: Test Failover
-            url: /cleondris_test_failover.html
           - title: Failover
             url: /cleondris_failover.html
-          - title: Monitoring
-            url: cleondris_monitoring.html
-          - title: Appendix
-            url: cleondris_appendix.html
+          - title: Best Practices
+            url: cleondris_best_practices.html
           - title: Additional Information
             url: /cleondris_additional_information.html
   - title: Artificial Intelligence (AI)

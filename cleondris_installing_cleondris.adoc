@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: cleondris_product_installation.html
+permalink: cleondris_installing_cleondris.html
 keywords: installation, dr, dns, fqdn, ntp, RTOs, license, deployment
 summary:
 ---
 
-= Product Installation
+= Installing Cleondris: NetApp HCI DR with Cleondris
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -19,16 +19,6 @@ summary:
 //
 
 [.lead]
-
-== Software Used
-
-This technical report used the following software versions:
-
-* vSphere 6.5 on production
-* vSphere 6.7 U3 on DR
-* NetApp Element 11.5 on production
-* NetApp Element 12.0 on DR
-* Cleondris HCC 8.0.2007 Build 20200707-1555 and 8.0.2007X2 build 20200709-1936.
 
 == Prerequisites
 
@@ -117,3 +107,34 @@ image:cleondris_image5.png[Error: Missing Graphic Image]
 ** NTP
 
 . Select the Reboot and Activate Network/NTP Settings. You will see the appliance reboot. Afterward, do a ping test to confirm the FQDN and IP.
+
+== Patching Cleondris
+
+To update your Cleondris product, complete the following steps:
+
+. When you first log in to the appliance, you see a screen like the following:
++
+
+image:cleondris_image6.png[Error: Missing Graphic Image]
+
+. Click Choose File to select the update you downloaded from the Cleondris website.
++
+
+image:cleondris_image7.png[Error: Missing Graphic Image]
+
+. Upload the patch. After the appliance reboots, the following login screen is displayed:
++
+
+image:cleondris_image8.png[Error: Missing Graphic Image]
+
+. You can now see the new version and build information; confirming that the update was successful. Now you can continue with the configuration.
+
+== Software Used
+
+This technical report uses the following software versions:
+
+* vSphere 6.5 on production
+* vSphere 6.7 U3 on DR
+* NetApp Element 11.5 on production
+* NetApp Element 12.0 on DR
+* Cleondris HCC 8.0.2007 Build 20200707-1555 and 8.0.2007X2 build 20200709-1936.
