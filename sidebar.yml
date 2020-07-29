@@ -184,6 +184,27 @@ entries:
         url: https://www.netapp.com/us/media/tr-4634.pdf
       - title: NetApp Scale-Out Data Protection with Commvault
         url: http://www.netapp.com/us/media/tr-4831.pdf
+      - title: NetApp HCI Disaster Recovery with Cleondris
+        entries:
+          - title: Abstract
+            url: /cleondris_abstract.html
+            output: pdf
+          - title: Disaster Recovery Overview
+            url: /cleondris_disaster_recovery_overview.html
+          - title: Installing Cleondris
+            url: /cleondris_installing_cleondris.html
+          - title: Configuring Cleondris
+            url: /cleondris_configuring_cleondris.html
+          - title: Disaster Recovery Pairing
+            url: /cleondris_disaster_recovery_pairing.html
+          - title: Recovery Organization
+            url: /cleondris_recovery_organization.html
+          - title: Failover
+            url: /cleondris_failover.html
+          - title: Best Practices
+            url: cleondris_best_practices.html
+          - title: Additional Information
+            url: /cleondris_additional_information.html
   - title: Artificial Intelligence (AI)
     entries:
       - title: AI Inferencing on the Edge Data Center with H615c and NVIDIA T4
