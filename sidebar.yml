@@ -21,7 +21,7 @@ entries:
         url: https://www.netapp.com/us/media/nva-1140-design.pdf
       - title: NetApp HCI for Dassault Systèmes CATIA
         url: https://www.netapp.com/us/media/tr-4837.pdf
-      - title: HCI for Citrix Virtual Apps
+      - title: HCI for Citrix Virtual Apps with Citrix Hypervisor
         entries:
           - title: Abstract
             url: /citrix_abstract.html
