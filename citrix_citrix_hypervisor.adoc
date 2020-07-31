@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_citrix_hypervisor.html
 keywords: Compute, storage, network, gpu, security, data protection, xencenter
-summary: TR-4852 abstract
+summary: TR-4854
 ---
 
-= Citrix Hypervisor
+= Citrix Hypervisor: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font

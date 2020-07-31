@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_solution_overview.html
 keywords: virtual apps, desktops, citrix hypervisor, citrix provisioning, aff a300
-summary: TR-4852
+summary: TR-4854
 ---
 
-= Solution Overview
+= Solution Overview: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font
