@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_control_layer.html
 keywords: App Layering, delivery controller, database, director, license, provisioning services, studio, Workspace Environment Management
-summary: TR-4852
+summary: TR-4854
 ---
 
-= Control Layer
+= Control Layer: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font

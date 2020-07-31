@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_user_layer.html
 keywords: static desktop, task worker, office worker, knowledge worker, power user,
-summary: TR-4852
+summary: TR-4854
 ---
 
-= User Layer
+= User Layer: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font

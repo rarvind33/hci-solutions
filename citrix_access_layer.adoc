@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_access_layer.html
 keywords: storefront, citrix workspace, unified gateway, firewall, dmz network, Application Delivery Controller, ADC
-summary: TR-4852 abstract
+summary: TR-4854 abstract
 ---
 
-= Access Layer
+= Access Layer: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font

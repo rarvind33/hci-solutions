@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_appendix__iscsi_device_configuration.html
 keywords: appendix, configuration, multipath, iscsi
-summary: TR-4852 abstract
+summary: TR-4854
 ---
 
-= Appendix  iSCSI Device Configuration
+= Appendix: iSCSI Device Configuration: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font

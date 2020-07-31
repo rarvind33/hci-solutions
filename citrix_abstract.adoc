@@ -1,11 +1,12 @@
 ---
 sidebar: sidebar
 permalink: /citrix_abstract.html
-summary: TR-4852 abstract
+summary: TR-4854 abstract
 keywords:
 ---
 
-= Abstract
+= Abstract: NetApp HCI for Citrix Virtual Apps
+
 
 :hardbreaks: ;
 :nofooter:
