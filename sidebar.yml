@@ -22,12 +22,11 @@ entries:
       - title: NetApp HCI for Dassault Systèmes CATIA
         url: https://www.netapp.com/us/media/tr-4837.pdf
       - title: HCI for Citrix Virtual Apps
+        url: /citrix_executive_summary.html
         entries:
           - title: Abstract
             url: /citrix_abstract.html
             output: pdf
-          - title: Executive Summary
-            url: /citrix_executive_summary.html
           - title: Solution Overview
             url: /citrix_solution_overview.html
           - title: Physical Infrastructure
