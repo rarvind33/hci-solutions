@@ -117,3 +117,5 @@ The key features of WEM are as follows:
 * Role-based access control
 
 * Control policies based on various filters
+
+link:citrix_access_layer.html[Next: Access Layer]

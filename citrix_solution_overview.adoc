@@ -37,3 +37,5 @@ image:citrix_image1.png[Error: Missing Graphic Image]
 A Mellanox SN2010 switch is used for 10/25/100Gb Ethernet connectivity. Storage nodes use SFP28 transceivers for 25Gb connection, compute nodes use SFP/SFP+ transceivers for 10Gb connection,  and interswitch links are QSFP28 transceivers for a 100Gb connection.
 
 Storage ports are configured with multichassis link aggregation (MLAG) to provide total throughput of 50Gb and are configured as trunk ports. Compute node ports are configured as hybrid ports to create a VLAN for iSCSI, XenMotion, and workload VLANs.
+
+link:citrix_netapp_value.html[Next: NetApp Value]

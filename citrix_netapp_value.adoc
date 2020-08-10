@@ -49,3 +49,5 @@ Cloud Insights helps you in the following ways:
 * *Reduce cloud infrastructure costs by an average of 33%.* Remove inefficiencies by identifying abandoned and unused resources and right-size workloads to optimized performance and cost tiers.
 
 * *Prevent as much as 80% of cloud issues from affecting end users.* Stop searching through vast amounts of data to find the relevant item by using advanced analytics and machine learning to identify issues before they become critical outages.
+
+link:citrix_physical_infrastructure.html[Physical Infrastructure]
