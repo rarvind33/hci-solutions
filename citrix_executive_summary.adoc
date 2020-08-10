@@ -5,7 +5,7 @@ keywords: TR-4854, tr4854, 4854, NetApp HCI, virtual apps, desktops, citrix hype
 summary: TR-4854
 ---
 
-= NetApp HCI for Citrix Virtual Apps and Desktops with Citrix Hypervisor
+= TR-4854: NetApp HCI for Citrix Virtual Apps and Desktops with Citrix Hypervisor
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -19,6 +19,8 @@ summary: TR-4854
 //
 
 [.lead]
+
+Suresh Thoppay, NetApp
 
 NetApp HCI infrastructure allows you to start small and build in small increments to meet the demands of virtual desktop users. Compute or storage nodes can be added or removed to address changing business requirements.
 

@@ -69,3 +69,5 @@ image:citrix_image32.png[Error: Missing Graphic Image]
 === GPU
 
 As indicated in the previous section, when you determine whether the hypervisor server has a GPU resource, you are prompted to enable graphics virtualization and pick the vGPU profile.
+
+link:citrix_control_layer.html[Next: Control Layer]
