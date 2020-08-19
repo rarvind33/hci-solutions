@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_physical_infrastructure.html
 keywords: NetApp HCI, compute nodes, storage nodes, mnode, mangement node, hybrid cloud control, hcc, aff, mellanox
-summary: TR-4852
+summary: TR-4854
 ---
 
-= Physical Infrastructure
+= Physical Infrastructure: NetApp HCI for Citrix Virtual Apps
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -130,3 +130,5 @@ Mellanox switches are open Ethernet switches that allow you to pick the network 
 Mellanox switches provide low latency and support traditional data center protocols and tunneling protocols like VXLAN. VXLAN Hardware VTEP is available to function as an L2 gateway.  These switches support various certified security standards like UC API, FIPS 140-2 (System Secure Mode), NIST 800-181A (SSH Server Strict Mode), and CoPP (IP Filter).
 
 Mellanox switches support automation tools like Ansible, SALT Stack, Puppet, and so on. The Web Management Interface provides the option to execute multi-line CLI commands.
+
+link:citrix_citrix_hypervisor.html[Next: Citrix Hypervisor]
