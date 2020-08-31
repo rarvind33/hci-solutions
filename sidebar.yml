@@ -88,6 +88,31 @@ entries:
                 url: /redhat_virtualization_optimizing_memory_for_red_hat_virtualization.html
           - title: Where to Find Additional Information  NetApp HCI with RHV
             url: /redhat_virtualization_where_to_find_additional_information__netapp_hci_with_rhv.html
+      - title: NetApp HCI with Cisco ACI
+        url: /hcicaci_netapp_hci_with_cisco_aci.html
+        entries:
+          - title: Use Cases
+            url: /hcicaci_use_cases.html
+          - title: Architecture
+            url: /hcicaci_architecture.html
+          - title: Design Considerations
+            url: /hcicaci_design_considerations.html
+          - title: Deploying NetApp HCI with Cisco ACI
+            entries:
+              - title: VMware vSphere NetApp HCI with Cisco ACI
+                url: /hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html
+              - title: KVM on RHEL NetApp HCI with Cisco ACI
+                url: /hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html
+              - title: ONTAP on AFF  NetApp HCI and Cisco ACI
+                url: /hcicaci_ontap_on_aff__netapp_hci_and_cisco_aci.html
+              - title: ONTAP Select with VMware vSphere NetApp HCI and Cisco ACI
+                url: /hcicaci_ontap_select_with_vmware_vsphere__netapp_hci_and_cisco_aci.html
+              - title: StorageGRID with VMware vSphere NetApp HCI and Cisco ACI
+                url: /hcicaci_storagegrid_with_vmware_vsphere__netapp_hci_and_cisco_aci.html
+          - title: Validation Results
+            url: /hcicaci_validation_results.html
+          - title: Where to Find Additional Information
+            url: /hcicaci_additional_information.html
   - title: Containers and DevOps
     entries:
       - title: Infrastructure as Code with Red Hat Ansible
