@@ -99,15 +99,15 @@ entries:
             url: /hcicaci_design_considerations.html
           - title: Deploying NetApp HCI with Cisco ACI
             entries:
-              - title: VMware vSphere NetApp HCI with Cisco ACI
+              - title: VMware vSphere
                 url: /hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html
-              - title: KVM on RHEL NetApp HCI with Cisco ACI
+              - title: KVM on RHEL
                 url: /hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html
-              - title: ONTAP on AFF  NetApp HCI and Cisco ACI
+              - title: ONTAP on AFF
                 url: /hcicaci_ontap_on_aff__netapp_hci_and_cisco_aci.html
-              - title: ONTAP Select with VMware vSphere NetApp HCI and Cisco ACI
+              - title: ONTAP Select with VMware vSphere
                 url: /hcicaci_ontap_select_with_vmware_vsphere__netapp_hci_and_cisco_aci.html
-              - title: StorageGRID with VMware vSphere NetApp HCI and Cisco ACI
+              - title: StorageGRID with VMware vSphere
                 url: /hcicaci_storagegrid_with_vmware_vsphere__netapp_hci_and_cisco_aci.html
           - title: Validation Results
             url: /hcicaci_validation_results.html
