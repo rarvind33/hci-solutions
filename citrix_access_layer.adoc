@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_access_layer.html
 keywords: storefront, citrix workspace, unified gateway, firewall, dmz network, Application Delivery Controller, ADC
-summary: TR-4854 abstract
+summary: TR-4852 abstract
 ---
 
-= Access Layer: NetApp HCI for Citrix Virtual Apps
+= Access Layer
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -35,5 +35,3 @@ image:citrix_image41.png[Error: Missing Graphic Image]
 To provide secure access to Citrix Virtual Apps and Desktops from the public internet to resources hosted behind a corporate firewall, Unified Gateway is deployed in a DMZ network. Unified Gateway provides access to multiple services like an SSL VPN, a reverse proxy to intranet resources, load balancer and so on by using a single IP address or URL.
 
 Users have the same experience whether they are accessing the resources internally or externally to an organization. Application Delivery Controller (ADC) provides enhanced networking features for Virtual Apps and Desktops, and HDX Network Insights enhances HDX monitoring information with Citrix Director.
-
-link:citrix_user_layer.html[Next: User Layer]

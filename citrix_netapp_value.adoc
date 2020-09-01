@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: citrix_netapp_value.html
 keywords: Data fabric, Cloud Volumes ONTAP, Azure NetApp Files, ShareFile, filecache
-summary: TR-4854
+summary: TR-4852
 ---
 
-= NetApp Value: NetApp HCI for Citrix Virtual Apps
+= NetApp Value
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -49,5 +49,3 @@ Cloud Insights helps you in the following ways:
 * *Reduce cloud infrastructure costs by an average of 33%.* Remove inefficiencies by identifying abandoned and unused resources and right-size workloads to optimized performance and cost tiers.
 
 * *Prevent as much as 80% of cloud issues from affecting end users.* Stop searching through vast amounts of data to find the relevant item by using advanced analytics and machine learning to identify issues before they become critical outages.
-
-link:citrix_physical_infrastructure.html[Physical Infrastructure]

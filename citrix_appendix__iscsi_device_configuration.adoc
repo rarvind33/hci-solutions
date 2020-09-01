@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: citrix_iscsi_device_configuration.html
+permalink: citrix_appendix__iscsi_device_configuration.html
 keywords: appendix, configuration, multipath, iscsi
-summary: TR-4854
+summary: TR-4852 abstract
 ---
 
-= iSCSI Device Configuration: NetApp HCI for Citrix Virtual Apps
+= Appendix  iSCSI Device Configuration
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -20,7 +20,7 @@ summary: TR-4854
 
 [.lead]
 
-To configure iSCSI devices, edit the multipath configuration file at `/etc/multipath.conf` as follows:
+Edit the multipath configuration file at `/etc/multipath.conf` as follows:
 
 ....
 # This is a basic configuration file with some examples, for device mapper
@@ -48,5 +48,3 @@ prio const
 #blacklist {
 #}
 ....
-
-link:citrix_where_to_find_additional_information.html[Next: Where to Find Additional Information]
