@@ -23,6 +23,7 @@ entries:
         url: https://www.netapp.com/us/media/tr-4837.pdf
       - title: HCI for Citrix Virtual Apps
         url: /citrix_executive_summary.html
+        type: solutions
         entries:
           - title: Abstract
             url: /citrix_abstract.html
@@ -50,6 +51,7 @@ entries:
   - title: Infrastructure
     entries:
       - title: NetApp HCI with Red Hat Virtualization
+        type: solutions
         entries:
           - title: Abstract
             url: /redhat_virtualization_abstract.html
@@ -125,6 +127,7 @@ entries:
         url: https://www.netapp.com/us/media/nva-1124-deploy.pdf
       - title: NetApp HCI with Anthos
         url: /anthos_concept_overview.html
+        type: solutions
         entries:
           - title: Solution Components
             url: /anthos_concept_solution_components.html
@@ -163,6 +166,7 @@ entries:
           - title: Additional Information
             url: /anthos_reference_addition_information.html
       - title: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+        type: solutions
         entries:
           - title: Abstract
             url: /redhat_openshift_abstract.html
@@ -234,6 +238,7 @@ entries:
       - title: NetApp Scale-Out Data Protection with Commvault
         url: http://www.netapp.com/us/media/tr-4831.pdf
       - title: NetApp HCI Disaster Recovery with Cleondris
+        type: solutions
         entries:
           - title: Abstract
             url: /cleondris_abstract.html
@@ -260,6 +265,8 @@ entries:
         url: http://www.netapp.com/us/media/nva-1144.pdf
   - title: Security
     entries:
+      - title: HCI Verified Architecture PCI DSS 3.2.1
+        url: http://www.netapp.com/us/media/wp-7327.pdf
       - title: NIST Security Controls for FISMA with HyTrust for Multitenant Infrastructure
         url: https://www.netapp.com/us/media/nva-1143.pdf
   - title: Solution Collection (login required)
