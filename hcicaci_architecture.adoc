@@ -54,7 +54,6 @@ NetApp HCI provides proven multiprotocol and hybrid- cloud support with enterpri
 
 For more details, see the https://docs.netapp.com/hci/index.jsp[NetApp HCI documentation^].
 
-
 == Cisco ACI
 
 Cisco ACI is an industry leading software-defined networking solution that facilitates application agility and data center automation. Cisco ACI has a holistic architecture with a centralized policy-driven management. It implements a programmable data center Virtual Extensible LAN (VXLAN) fabric that delivers distributed networking and security for any workload, regardless of its nature (virtual, physical, container, and so on).
@@ -115,6 +114,7 @@ The following tables list the hardware and software compute resources utilized i
 |Hardware |Model |Quantity
 
 |NetApp HCI compute nodes
+=======
 |NetApp H410C
 |6
 |===
@@ -147,6 +147,7 @@ The following tables list the hardware and software storage resources used in th
 |Hardware |Model |Quantity
 
 |NetApp HCI storage nodes
+=======
 |NetApp H410S
 |4
 |AFF

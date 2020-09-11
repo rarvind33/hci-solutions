@@ -104,8 +104,6 @@ entries:
             entries:
               - title: VMware vSphere
                 url: /hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html
-              - title: Red Hat Virtualization
-                url: /hcicaci_RHV__netapp_hci_with_cisco_aci.html
               - title: KVM on RHEL
                 url: /hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html
               - title: ONTAP on AFF
