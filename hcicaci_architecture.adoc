@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: hcicaci_architecture.html
-keywords: StorageGRID, QoS, Cisco ACI Virtual Edge, AVE, VMware distributed switch, VDS, Linux bridge, open vswitch, software, hardware, NetApp Hybrid Cloud Control, performance, interoperability, 
+keywords: StorageGRID, QoS, Cisco ACI Virtual Edge, AVE, VMware distributed switch, VDS, Linux bridge, open vswitch, software, hardware, NetApp Hybrid Cloud Control, performance, interoperability,
 summary: TR-4857
 ---
 
@@ -114,7 +114,7 @@ The following tables list the hardware and software compute resources utilized i
 |Hardware |Model |Quantity
 
 |NetApp HCI compute nodes
-=======
+
 |NetApp H410C
 |6
 |===
@@ -147,7 +147,7 @@ The following tables list the hardware and software storage resources used in th
 |Hardware |Model |Quantity
 
 |NetApp HCI storage nodes
-=======
+
 |NetApp H410S
 |4
 |AFF
