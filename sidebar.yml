@@ -23,6 +23,7 @@ entries:
         url: https://www.netapp.com/us/media/tr-4837.pdf
       - title: HCI for Citrix Virtual Apps
         url: /citrix_executive_summary.html
+        type: solutions
         entries:
           - title: Abstract
             url: /citrix_abstract.html
@@ -50,6 +51,7 @@ entries:
   - title: Infrastructure
     entries:
       - title: NetApp HCI with Red Hat Virtualization
+        type: solutions
         entries:
           - title: Abstract
             url: /redhat_virtualization_abstract.html
@@ -90,6 +92,7 @@ entries:
             url: /redhat_virtualization_where_to_find_additional_information__netapp_hci_with_rhv.html
       - title: NetApp HCI with Cisco ACI
         url: /hcicaci_netapp_hci_with_cisco_aci.html
+        type: solutions
         entries:
           - title: Use Cases
             url: /hcicaci_use_cases.html
@@ -122,12 +125,9 @@ entries:
       - title: Red Hat Openshift Container Platform (Deployment Guide)
         url: https://www.netapp.com/us/media/nva-1124-deploy.pdf
       - title: NetApp HCI with Anthos
+        url: /anthos_concept_overview.html
+        type: solutions
         entries:
-          - title: Abstract
-            url: /anthos_abstract.html
-            output: pdf
-          - title: Overview and Business Value
-            url: /anthos_concept_overview.html
           - title: Solution Components
             url: /anthos_concept_solution_components.html
           - title: Design Considerations
@@ -165,6 +165,7 @@ entries:
           - title: Additional Information
             url: /anthos_reference_addition_information.html
       - title: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+        type: solutions
         entries:
           - title: Abstract
             url: /redhat_openshift_abstract.html
@@ -236,6 +237,7 @@ entries:
       - title: NetApp Scale-Out Data Protection with Commvault
         url: http://www.netapp.com/us/media/tr-4831.pdf
       - title: NetApp HCI Disaster Recovery with Cleondris
+        type: solutions
         entries:
           - title: Abstract
             url: /cleondris_abstract.html
