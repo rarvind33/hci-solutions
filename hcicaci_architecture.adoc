@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: hcicaci_architecture.html
-keywords: StorageGRID, QoS, Cisco ACI Virtual Edge, AVE, VMware distributed switch, VDS, Linux bridge, open vswitch, software, hardware, NetApp Hybrid Cloud Control, performance, interoperability,
+keywords: StorageGRID, QoS, Cisco ACI Virtual Edge, AVE, VMware distributed switch, VDS, Linux bridge, open vswitch, software, hardware, NetApp Hybrid Cloud Control, performance, interoperability, 
 summary: TR-4857
 ---
 
