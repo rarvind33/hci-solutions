@@ -46,8 +46,6 @@ image:hcicaci_image6.png[Error: Missing Graphic Image]
 image:hcicaci_image7.png[Error: Missing Graphic Image]
 +
 
-=======
-
 [NOTE]
 Use an access port policy group for interfaces connecting to NetApp HCI compute nodes, and use vPC policy group for interfaces to NetApp HCI storage nodes.
 
