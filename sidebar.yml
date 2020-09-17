@@ -51,13 +51,9 @@ entries:
   - title: Infrastructure
     entries:
       - title: NetApp HCI with Red Hat Virtualization
+        url: /redhat_virtualization_solution_overview__netapp_hci_with_rhv.html
         type: solutions
         entries:
-          - title: Abstract
-            url: /redhat_virtualization_abstract.html
-            output: pdf
-          - title: Solution Overview  NetApp HCI with RHV
-            url: /redhat_virtualization_solution_overview__netapp_hci_with_rhv.html
           - title: Architecture Overview  NetApp HCI with RHV
             url: /redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html
           - title: Design Considerations  NetApp HCI with RHV
