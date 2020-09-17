@@ -161,13 +161,9 @@ entries:
           - title: Additional Information
             url: /anthos_reference_addition_information.html
       - title: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+        url: /redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
         type: solutions
         entries:
-          - title: Abstract
-            url: /redhat_openshift_abstract.html
-            output: pdf
-          - title: Solution Overview  NetApp HCI for Red Hat OpenShift on RHV
-            url: /redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
           - title: Architectural Overview  NetApp HCI for Red Hat OpenShift on RHV
             url: /redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
           - title: Design Considerations  NetApp HCI for Red Hat OpenShift on RHV
