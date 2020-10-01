@@ -19,7 +19,7 @@ summary:
 //
 
 [.lead]
-A Deployment Jump VM running a Linux distribution is used for the following purposes
+A Deployment Jump VM running a Linux distribution is used for the following purposes:
 
 * Deploying ONTAP Select using an Ansible playbook
 * Deploying the Kubernetes infrastructure with NVIDIA DeepOps and GPU Operator
