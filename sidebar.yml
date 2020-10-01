@@ -297,13 +297,13 @@ entries:
           - title: Deploying NetApp HCI – AI Inferencing at the Edge
             url: /hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge_overview.html
             entries:
-              - title: Configure Network Switches Automated Deployment
+              - title: Configure Network Switches (Automated Deployment)
                 url: /hciaiedge_configure_network_switches_automated_deployment.html
               - title: Virtual Infrastructure with Automated Deployment
                 url: /hciaiedge_virtual_infrastructure_with__automated_deployment.html
-              - title: NetApp H615cManual Deployment
+              - title: Configure NetApp H615c (Manual Deployment)
                 url: /hciaiedge_netapp_h615cmanual_deployment.html
-              - title: Setp the Deployment Jump and the Kubernetes Master Node VMs Manual Deployment
+              - title: Set Up the Deployment Jump and the Kubernetes Master Node VMs Manual Deployment
                 url: /hciaiedge_setp_the_deployment_jump__and_the_kubernetes_master_node_vms_manual_deployment.html
               - title: Deploy a Kubernetes Cluster with NVIDIA DeepOps Automated Deployment
                 url: /hciaiedge_deploy_a_kubernetes_cluster_with_nvidia_deepops_automated_deployment.html

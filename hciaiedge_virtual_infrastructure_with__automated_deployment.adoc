@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Virtual Infrastructure with Automated Deployment
+= Deploy VMware Virtual Infrastructure on NetApp HCI with NDE (Automated Deployment)
 :hardbreaks:
 :nofooter:
 :icons: font
