@@ -167,9 +167,8 @@ entries:
           - title: Hardware and Software Requirements
             url: /anthos_reference_hardware_software_requirements.html
           - title: Deployment Steps
+            url: /anthos_reference_workflow_summary.html
             entries:
-              - title: Workflow Summary
-                url: /anthos_reference_workflow_summary.html
               - title: 1. Configure Management Switches
                 url: /anthos_task_configure_management_switches.html
               - title: 2. Configure Data Switches
