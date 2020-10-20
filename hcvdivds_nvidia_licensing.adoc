@@ -40,7 +40,6 @@ GRID vApps are for organizations deploying a Remote Desktop Session Host (RDSH) 
 
 This edition is ideal for mainstream and high-end designers who use powerful 3D content creation applications like Dassault CATIA, SOLIDWORKS, 3Dexcite, Siemens NX, PTC Creo, Schlumberger Petrel, or Autodesk Maya. NVIDIA Quadro vDWS allows users to access their professional graphics applications with full features and performance anywhere on any device.
 
-With NetApp VDS, only GRID Virtual Applications or the Quadro Virtual Data Center Workstation type is supported.
 
 == NVIDIA Virtual ComputeServer
 

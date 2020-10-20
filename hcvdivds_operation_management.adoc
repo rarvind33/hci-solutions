@@ -18,7 +18,6 @@ summary:
 // 2020-09-24 13:21:46.235765
 //
 
-[.lead]
 With NetApp VDS, administrators can delegate tasks to others. They can connect to deployed servers to troubleshoot, view logs, and run audit reports. While assisting customers, helpdesk or level-3 technicians can shadow user sessions, view process lists, and kill processes if required.
 
 For information on VDS logfiles, see the https://docs.netapp.com/us-en/virtual-desktop-service/guide_troubleshooting_failed_VDS_actions.html[Troubleshooting Failed VDA Actions page^].
@@ -35,7 +34,9 @@ To identify the gateway address to manually configure the client, see the https:
 
 NetApp Cloud Insights is a web-based monitoring tool that gives you complete visibility into infrastructure and applications running on NetApp and other third-party infrastructure components. Cloud Insights supports both private cloud and public clouds for monitoring, troubleshooting, and optimizing resources.
 
-The following figure presents the Cloud Insights VDS dashboard.
+Only the acquisition unit VM (can be Windows or Linux) must be installed on a private cloud to collect metrics from data collectors without the need for agents. Agent-based data collectors allow you to pull custom metrics from Windows Performance Monitor or any input agents that Telegraf supports.
+
+The following figure depicts the Cloud Insights VDS dashboard.
 
 image:hcvdivds_image15.png[Error: Missing Graphic Image]
 
