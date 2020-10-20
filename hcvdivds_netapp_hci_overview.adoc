@@ -56,6 +56,6 @@ The M10 GPU remains the best TCO solution for knowledge-worker use cases. Howeve
 
 The H610C compute node is two rack units in size; the H615C is one rack unit in size and consumes less power. The H615C supports H.264 and H.265 (High Efficiency Video Coding [HEVC]) 4:4:4 encoding and decoding. It also supports a VP9 decoder, which is becoming more mainstream; even the WebM container package served by YouTube uses the VP9 codec for video.
 
-The number of nodes in a compute cluster is dictated by VMware; currently, it is 96 with VMware vSphere 7.0 Update 1. Mixing different models of compute nodes in a cluster is supported when Enhanced vMotion Compatibility (EVC) is enabled. For GPU nodes with default graphics settings (virtual shared graphics mode), compute models can be mixed in a cluster.
+The number of nodes in a compute cluster is dictated by VMware; currently, it is 96 with VMware vSphere 7.0 Update 1. Mixing different models of compute nodes in a cluster is supported when Enhanced vMotion Compatibility (EVC) is enabled.
 
 link:hcvdivds_nvidia_licensing.html[Next: NVIDIA Licensing]
