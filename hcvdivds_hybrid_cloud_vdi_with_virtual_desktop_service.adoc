@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: hcvdivds_hybrid_cloud_vdi_with_virtual_desktop_service.html
-keywords: TR-4861, VDS, RDS, Windows Virtual Desktop, Remote Desktop Services, Virtual Desktop Services,
+keywords: TR-4861, VDS, Windows Virtual Desktop, Remote Desktop Services, Virtual Desktop Services,
 summary:
 ---
 
